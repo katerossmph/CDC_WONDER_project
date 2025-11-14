@@ -3,6 +3,68 @@ library(here)
 
 # Load raw data
 mort_clean <- read_csv(here("data", "processed", "mort_clean.csv"))
+race_clean <- read_csv(here("data", "processed", "race_clean.csv"))
+
+# --- Clean Mortality data ---
+clean_data <- clean_mortality(mort_clean) %>%
+  mutate(
+    cause_category = case_when(
+      # Heart Disease
+      cause_code %in% c("I00", "I01","I02","I03","I04","I05","I06","I07","I08","I09", 
+                        "I11.0", "I11.9", "I13.2", "I21.4", "I21.9", "I25.0", "I25.1", 
+                        "I25.5", "I26.9", "I27.2", "I34.0", "I35.0", "I42.9", "I46.9",
+                        "I48", "I49.9", "I50.0", "I50.9", "I51.6", "I51.9") ~ "Heart Disease",
+      
+      # Diabetes
+      cause_code %in% c("E11.9", "E14.2", "E14.9") ~ "Diabetes",
+      
+      # Stroke
+      cause_code %in% c("I61.9", "I63.9", "I64", "I67.9", "I69.4", "I69.8") ~ "Stroke",
+      
+      TRUE ~ "Other"
+    )
+  )
+
+# --- Filter to selected ICD codes ---
+selected_icd_codes <- c(
+  "I00","I01","I02","I03","I04","I05","I06","I07","I08","I09", 
+  "I11.0","I11.9","I13.2","I21.4","I21.9","I25.0","I25.1","I25.5","I26.9","I27.2",
+  "I34.0","I35.0","I42.9","I46.9","I48","I49.9","I50.0","I50.9","I51.6","I51.9",
+  "E11.9","E14.2","E14.9",
+  "I61.9","I63.9","I64","I67.9","I69.4","I69.8"
+)
+
+mort_selected <- clean_data %>%
+  filter(cause_code %in% selected_icd_codes)
+
+# --- Merge RACE Data ---
+race_data <- race_clean %>%
+  rename(
+    county = County, county_code = `County Code`,
+    cause = `Cause of death`, cause_code = `Cause of death Code`,
+    sex = Sex, sex_code = `Sex Code`,
+    deaths_race = Deaths
+  )
+
+merged_data <- mort_selected %>%
+  left_join(race_data,
+            by = c("county", "cause_code", "sex"))
+
+merged_data_clean <- merged_data %>%
+  select(county, 
+         county_code = county_code.x, 
+         cause_category,
+         cause_code,
+         year,
+         age_group,
+         sex,
+         deaths_year = deaths, # First dataset deaths
+         deaths_race, 
+         race = `Single/Multi Race 31`,
+         Education,
+         `Education Code`
+  )
+
 
 # Clean Data
 clean_data <- clean_mortality(mort_clean)

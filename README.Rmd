@@ -15,6 +15,8 @@ library(tidyverse)
 library(readxl)
 library(here)
 library(scales)
+library(dplyr)
+library(ggplot2)
 
 # Set default chunk options
 knitr::opts_chunk$set(
@@ -30,13 +32,13 @@ clean_data <- read_csv(here("data/processed/clean_data.csv"))
 mort_selected <- read_csv(here("data/processed/mort_selected.csv"))
 ```
 
-## Project Overview
+# Project Overview
 
 This project analyzes trends in mortality from major chronic diseases (heart disease, diabetes, and stroke) in Massachusetts from 2021 to 2023. Analyses explore patterns by year, sex, age, group, and county, highlighting disparities and trends in deaths.
 
-### Data
+## Data
 
-The cleaned mortality dataset was prepared from CDC WONDER data. key variables include:
+The cleaned mortality data set was exported from CDC WONDER Massachusetts data. Key variables include:
 
 -   `cause_category` (Heart Disease, Diabetes, Stroke)
 
@@ -50,26 +52,32 @@ The cleaned mortality dataset was prepared from CDC WONDER data. key variables i
 
 -   `deaths` (Number of deaths)
 
-## Exploratory Analyses
+# Exploratory Analyses
 
-### Overall Deaths by Cause
+## Overall Deaths by Cause
 
-``` {r Total Deaths by Cause Category, echo = TRUE, message = FALSE, warning = FALSE}
+```{r Total Deaths by Cause Category, echo = TRUE, message = FALSE, warning = FALSE}
 
 overall_by_cause <- clean_data %>%
   filter(cause_category %in% c("Heart Disease", "Diabetes", "Stroke")) %>%
   group_by(cause_category) %>%
   summarise(total_deaths = sum(deaths, na.rm = TRUE)) %>%
+  mutate(total_deaths = comma(total_deaths)) %>%
   arrange(desc(total_deaths))
 
-overall_by_cause
+# overall_by_cause
+
+knitr::kable(overall_by_cause,
+            caption = "Total Deaths by Disease from 2021 to 2023",
+            col.names = c("Chronic Disease Category", "Total Deaths"))
 
 ```
 
 **Interpretation:** Heart disease accounts for the majority of deaths, followed by stroke and diabetes.
 
-### Trends in Deaths Over Years
-``` {r Trend in Deaths Over Years, echo = TRUE, message = FALSE, warning = FALSE}
+## Trends in Deaths Over Years
+
+```{r Trend in Deaths Over Years, echo = TRUE, message = FALSE, warning = FALSE}
 
 ggplot(clean_data, aes(x = year, y = deaths, color = cause_category)) +
   geom_line(stat = "summary", fun = sum) +
@@ -80,95 +88,163 @@ ggplot(clean_data, aes(x = year, y = deaths, color = cause_category)) +
   theme_minimal()
 
 ```
-**Interpretation:** The trend in deaths from 2021 - 2023 shows that the rates of mortality due to heart disease were consistently higher than that of diabetes and stroke deaths. However the other mortality causes were greater than that of Heart Disease co-morbidities 
 
-### Deaths by Sex
-``` {r Deaths by Sex, echo = TRUE, message = FALSE, warning = FALSE}
+**Interpretation:** The trend in deaths from 2021 - 2023 shows that the rates of mortality due to heart disease were consistently higher than that of diabetes and stroke deaths. However the other mortality causes were greater than that of Heart Disease co-morbidities
+
+## Deaths by Sex
+
+```{r Deaths by Sex, echo = TRUE, message = FALSE, warning = FALSE}
 
 overall_by_sex <- clean_data %>%
-group_by(sex) %>%
-summarise(total_deaths = sum(deaths, na.rm = TRUE))
+  group_by(sex) %>%
+  summarise(total_deaths = sum(deaths, na.rm = TRUE)) %>%
+  mutate(total_deaths = comma(total_deaths))
 
-overall_by_sex
+knitr::kable(overall_by_sex,
+             caption = "Total Deaths per sex (2021-2023)",
+             col.names = c("Sex", "Total Deaths"))
 
 sex_by_cause <- clean_data %>%
 filter(cause_category %in% c("Heart Disease", "Diabetes", "Stroke")) %>%
 group_by(sex, cause_category) %>%
 summarise(total_deaths = sum(deaths, na.rm = TRUE))
 
-sex_by_cause
+sex_by_cause_wide <- sex_by_cause %>%
+  pivot_wider(names_from = cause_category,
+              values_from = total_deaths) %>%
+  mutate(`Heart Disease` = comma(`Heart Disease`),
+         Diabetes = comma(Diabetes),
+         Stroke = comma(Stroke))
+
+knitr::kable(sex_by_cause_wide,
+             caption = "Total Deaths per Sex by Cause Category")
+
 
 ```
-**Interpretation:** Females had higher total deaths overall. Heart Disease remained the leading cause in both sexes. Females had a higher leading cause of stroke relative to men. 
 
+**Interpretation:** Females had higher total deaths overall. Heart Disease remained the leading cause in both sexes. Females had a higher leading cause of stroke relative to men.
 
-### Deaths by Sex, Cause, and Year
+## Deaths by Sex, Cause, and Year
 
 ```{r deaths-sex-cause-year, echo=TRUE, message=FALSE, warning=FALSE}
-library(dplyr)
-library(ggplot2)
-library(scales)
 
-# Summarize deaths by year, sex, and cause
-deaths_by_sex <- clean_data %>%
+deaths_trend <- mort_selected %>%
   filter(cause_category %in% c("Heart Disease", "Diabetes", "Stroke")) %>%
-  group_by(year, sex, cause_category) %>%
+  group_by(year, cause_category, sex) %>%
   summarise(total_deaths = sum(deaths, na.rm = TRUE), .groups = "drop")
 
-# Plot deaths by sex, cause, and year
-ggplot(deaths_by_sex, aes(x = sex, y = total_deaths, fill = cause_category)) +
-  geom_col(position = "dodge") +
-  facet_wrap(~year) +
-  scale_y_continuous(labels = comma) +
-  labs( #title = "Deaths by Sex, Cause, and Year",
-       x = "Sex", y = "Total Deaths") +
-  theme_minimal()
+ggplot(deaths_trend, aes(x = year, y = total_deaths, color = sex, group = sex)) +
+  
+  # Lines
+  geom_line(size = 1, alpha = 0.9) +
+  
+  # Text labels with sex-specific positions
+  geom_text(
+    aes(
+      label = scales::comma(total_deaths), 
+      vjust = case_when(
+        # --- Heart Disease + Diabetes --- 
+        cause_category %in% c("Heart Disease", "Diabetes") & sex == "Male" ~ -1.2, # above
+        cause_category %in% c("Heart Disease", "Diabetes") & sex == "Female" ~ 1.2, # below
+        
+        # --- Stroke ---
+        cause_category %in% c("Stroke") & sex == "Male" ~ 1.2, # above
+        cause_category %in% c("Stroke") & sex == "Female" ~ -1.2, # above
+        
+        )), # women above, men below - HMMM
+    size = 2.4
+    ) +
+  
+  facet_wrap(~cause_category, scales = "fixed") +
+  scale_x_continuous(breaks = c(2021, 2022, 2023)) +
+  scale_y_continuous(labels = scales::comma) +
+  
+  labs(
+    title = "Trends in Deaths by Cause and Sex (2021 - 2023)",
+    x = "Year", 
+    y = "Total Deaths", 
+    color = "Sex"
+  ) +
+  
+  theme_minimal(base_size = 12) +
+  theme(
+    strip.text = element_text(size = 11, face = "bold"),
+    legend.position = "top",
+    plot.title = element_text(face = "bold", size = 14)
+  )
 ```
-**Interpretation:** The faceted plot demonstrates how deaths for each cause differ between men and women across years. 
+
+**Interpretation:** The faceted plot demonstrates how deaths for each cause differ between men and women across years.
 
 ### Deaths by Age Group
 
 ```{r deaths-by-age-group, echo=TRUE, message=FALSE, warning=FALSE}
 
-overall_by_age <- clean_data %>%
-group_by(age_group) %>%
-summarise(total_deaths = sum(deaths, na.rm = TRUE))
+# Make sure age_group is clean
+deaths_by_age <- mort_selected %>%
+  filter(!is.na(age_group)) %>%
+  mutate(age_group = str_trim(age_group)) %>%
+  group_by(cause_category, age_group) %>%
+  summarise(total_deaths = sum(deaths, na.rm = TRUE), .groups = "drop")
 
-overall_by_age
+#age_levels <- c("35-44", "45-54", "55-64", "65-74", "75-84", "85+")
+#deaths_by_age <- deaths_by_age %>%
+#  mutate(age_group = factor(age_group, levels = age_levels))
+
+# Pivot wide for reporting
+deaths_by_age_wide <- deaths_by_age %>%
+  pivot_wider(names_from = cause_category,
+              values_from = total_deaths,
+              values_fill = 0) # %>%
+#  arrange(factor(age_group, levels = age_levels)) # Ensures the youngest are at the top
+
+# Print table
+knitr::kable(
+  deaths_by_age_wide %>%
+    mutate(across(-age_group, scales::comma)),
+  caption = "Deaths by Age Group",
+  col.names = c("Age Group", "Diabetes", "Heart Disease", "Stroke"))
+
+# Bar plot
+ggplot(deaths_by_age, aes(x = age_group, y = total_deaths, fill = cause_category)) +
+  geom_col(position = position_dodge(width = 0.9)) +
+  geom_text(aes(label = scales::comma(total_deaths)),
+            position = position_dodge(width = 0.9),
+            vjust = -0.5,
+            size = 3) +
+  scale_y_continuous(labels = scales::label_comma()) +
+  labs(title = "Deaths by Age Group and Cause",
+       x = "Age Group", y = "Total Deaths") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
 ```
-**Interpretation:** [Add interpretation on which age groups have the highest mortality for each cause.]
+
+**Interpretation:** This demonstrates that Older aged individuals (75+) have a higher mortality for each cause then younger individuals. Additionally, this indicates that heart disease was affecting those under 55 whereas diabetes and stroke wasn't.
 
 ### Deaths by County
 
 ```{r deaths-by-county, echo=TRUE, message=FALSE, warning=FALSE}
 
-deaths_by_county <- clean_data %>%
-filter(cause_category %in% c("Heart Disease", "Diabetes", "Stroke")) %>%
-group_by(county, cause_category) %>%
-summarise(total_deaths = sum(deaths, na.rm = TRUE))
+deaths_by_county <- mort_selected %>%
+  group_by(cause_category, county) %>%
+  summarise(total_deaths = sum(deaths, na.rm = TRUE), .groups = "drop") %>%
+  arrange(cause_category, desc(total_deaths))
 
-deaths_by_county
+deaths_by_county_wide <- deaths_by_county %>%
+  pivot_wider(names_from = cause_category, 
+              values_from = total_deaths, 
+              values_fill = 0) %>%
+  arrange(desc(`Heart Disease`), desc(Stroke)) %>%
+  mutate(county = factor(county, levels = county),
+         `Heart Disease` = comma(`Heart Disease`),
+         Diabetes = comma(Diabetes), 
+         Stroke = comma(Stroke))
 
-```
-**Interpretation:** Counties such as Middlesex and Essex show the highest total deaths over the three years, particularly for heart disease. 
-
-## 1. Load Data
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
+knitr::kable(
+  deaths_by_county_wide,
+  caption = "Total Deaths by County and Cause Category (2021-2023)"
+)
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+**Interpretation:** Middlesex, Essex, Worchester, and Norfolk County have the highest total deaths over the three years, particularly regarding Heart Disease and Stroke. This suggests there may be additional comorbidities and risk factors affecting these populations.
