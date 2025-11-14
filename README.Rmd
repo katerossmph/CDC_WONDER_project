@@ -1,0 +1,58 @@
+---
+title: "Racial/Ethnic Disparities in Chronic Disease Mortality in Massachusetts (2018-2023)"
+author: "Kate Ross"
+date: "2025-11-14"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 2
+    theme: cerulean
+---
+
+```{r setup, include=FALSE}
+# Load required packages
+library(tidyverse)
+library(readxl)
+library(here)
+
+# Set default chunk options
+knitr::opts_chunk$set(
+  echo = TRUE,          # Show code
+  warning = FALSE,      # Hide warnings
+  message = FALSE       # Hide messages
+)
+
+# Source project functions
+```
+
+## Project Overview
+
+This project analyzes racial disparities in major chronic disease mortality in Massachusetts from 2018 - 2023.
+
+**Research Questions:**
+
+1.  How do mortality rates differ by race?
+
+2.  How have disparities changed over time?
+
+3.  Are there any geographic patterns by county?
+
+## 1. Load Data
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

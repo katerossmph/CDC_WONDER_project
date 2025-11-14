@@ -1,0 +1,1057 @@
+Notes,county,county_code,cause,cause_code,year,year_code,age_group,age_code,sex,sex_code,deaths,cause_category
+NA,"Barnstable County, MA",25001,"Acute myocardial infarction, unspecified",I21.9,2021,2021,65-74 years,65-74,Male,M,18,Heart Disease
+NA,"Barnstable County, MA",25001,"Acute myocardial infarction, unspecified",I21.9,2021,2021,75-84 years,75-84,Male,M,11,Heart Disease
+NA,"Barnstable County, MA",25001,"Acute myocardial infarction, unspecified",I21.9,2021,2021,85+ years,85+,Female,F,12,Heart Disease
+NA,"Barnstable County, MA",25001,"Acute myocardial infarction, unspecified",I21.9,2021,2021,85+ years,85+,Male,M,10,Heart Disease
+NA,"Barnstable County, MA",25001,"Acute myocardial infarction, unspecified",I21.9,2022,2022,75-84 years,75-84,Male,M,13,Heart Disease
+NA,"Barnstable County, MA",25001,"Acute myocardial infarction, unspecified",I21.9,2022,2022,85+ years,85+,Female,F,16,Heart Disease
+NA,"Barnstable County, MA",25001,"Acute myocardial infarction, unspecified",I21.9,2022,2022,85+ years,85+,Male,M,14,Heart Disease
+NA,"Barnstable County, MA",25001,"Acute myocardial infarction, unspecified",I21.9,2023,2023,65-74 years,65-74,Male,M,16,Heart Disease
+NA,"Barnstable County, MA",25001,"Acute myocardial infarction, unspecified",I21.9,2023,2023,75-84 years,75-84,Male,M,12,Heart Disease
+NA,"Barnstable County, MA",25001,"Acute myocardial infarction, unspecified",I21.9,2023,2023,85+ years,85+,Female,F,16,Heart Disease
+NA,"Barnstable County, MA",25001,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,65-74 years,65-74,Male,M,15,Heart Disease
+NA,"Barnstable County, MA",25001,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,85+ years,85+,Male,M,12,Heart Disease
+NA,"Barnstable County, MA",25001,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,55-64 years,55-64,Male,M,11,Heart Disease
+NA,"Barnstable County, MA",25001,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,65-74 years,65-74,Male,M,14,Heart Disease
+NA,"Barnstable County, MA",25001,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,75-84 years,75-84,Male,M,11,Heart Disease
+NA,"Barnstable County, MA",25001,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,55-64 years,55-64,Male,M,10,Heart Disease
+NA,"Barnstable County, MA",25001,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,65-74 years,65-74,Male,M,14,Heart Disease
+NA,"Barnstable County, MA",25001,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,75-84 years,75-84,Female,F,12,Heart Disease
+NA,"Barnstable County, MA",25001,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,75-84 years,75-84,Male,M,11,Heart Disease
+NA,"Barnstable County, MA",25001,Atherosclerotic heart disease,I25.1,2021,2021,65-74 years,65-74,Male,M,15,Heart Disease
+NA,"Barnstable County, MA",25001,Atherosclerotic heart disease,I25.1,2021,2021,75-84 years,75-84,Female,F,10,Heart Disease
+NA,"Barnstable County, MA",25001,Atherosclerotic heart disease,I25.1,2021,2021,75-84 years,75-84,Male,M,20,Heart Disease
+NA,"Barnstable County, MA",25001,Atherosclerotic heart disease,I25.1,2021,2021,85+ years,85+,Female,F,30,Heart Disease
+NA,"Barnstable County, MA",25001,Atherosclerotic heart disease,I25.1,2021,2021,85+ years,85+,Male,M,35,Heart Disease
+NA,"Barnstable County, MA",25001,Atherosclerotic heart disease,I25.1,2022,2022,65-74 years,65-74,Male,M,14,Heart Disease
+NA,"Barnstable County, MA",25001,Atherosclerotic heart disease,I25.1,2022,2022,75-84 years,75-84,Female,F,11,Heart Disease
+NA,"Barnstable County, MA",25001,Atherosclerotic heart disease,I25.1,2022,2022,75-84 years,75-84,Male,M,22,Heart Disease
+NA,"Barnstable County, MA",25001,Atherosclerotic heart disease,I25.1,2022,2022,85+ years,85+,Female,F,29,Heart Disease
+NA,"Barnstable County, MA",25001,Atherosclerotic heart disease,I25.1,2022,2022,85+ years,85+,Male,M,43,Heart Disease
+NA,"Barnstable County, MA",25001,Atherosclerotic heart disease,I25.1,2023,2023,65-74 years,65-74,Male,M,10,Heart Disease
+NA,"Barnstable County, MA",25001,Atherosclerotic heart disease,I25.1,2023,2023,75-84 years,75-84,Female,F,14,Heart Disease
+NA,"Barnstable County, MA",25001,Atherosclerotic heart disease,I25.1,2023,2023,75-84 years,75-84,Male,M,25,Heart Disease
+NA,"Barnstable County, MA",25001,Atherosclerotic heart disease,I25.1,2023,2023,85+ years,85+,Female,F,31,Heart Disease
+NA,"Barnstable County, MA",25001,Atherosclerotic heart disease,I25.1,2023,2023,85+ years,85+,Male,M,30,Heart Disease
+NA,"Barnstable County, MA",25001,Aortic (valve) stenosis,I35.0,2022,2022,85+ years,85+,Female,F,10,Heart Disease
+NA,"Barnstable County, MA",25001,Aortic (valve) stenosis,I35.0,2022,2022,85+ years,85+,Male,M,10,Heart Disease
+NA,"Barnstable County, MA",25001,Atrial fibrillation and flutter,I48,2021,2021,85+ years,85+,Female,F,17,Heart Disease
+NA,"Barnstable County, MA",25001,Atrial fibrillation and flutter,I48,2022,2022,85+ years,85+,Female,F,22,Heart Disease
+NA,"Barnstable County, MA",25001,Atrial fibrillation and flutter,I48,2022,2022,85+ years,85+,Male,M,10,Heart Disease
+NA,"Barnstable County, MA",25001,Atrial fibrillation and flutter,I48,2023,2023,85+ years,85+,Female,F,17,Heart Disease
+NA,"Barnstable County, MA",25001,Atrial fibrillation and flutter,I48,2023,2023,85+ years,85+,Male,M,10,Heart Disease
+NA,"Barnstable County, MA",25001,Congestive heart failure,I50.0,2021,2021,75-84 years,75-84,Male,M,14,Heart Disease
+NA,"Barnstable County, MA",25001,Congestive heart failure,I50.0,2021,2021,85+ years,85+,Female,F,34,Heart Disease
+NA,"Barnstable County, MA",25001,Congestive heart failure,I50.0,2021,2021,85+ years,85+,Male,M,14,Heart Disease
+NA,"Barnstable County, MA",25001,Congestive heart failure,I50.0,2022,2022,75-84 years,75-84,Male,M,17,Heart Disease
+NA,"Barnstable County, MA",25001,Congestive heart failure,I50.0,2022,2022,85+ years,85+,Female,F,41,Heart Disease
+NA,"Barnstable County, MA",25001,Congestive heart failure,I50.0,2022,2022,85+ years,85+,Male,M,23,Heart Disease
+NA,"Barnstable County, MA",25001,Congestive heart failure,I50.0,2023,2023,75-84 years,75-84,Male,M,15,Heart Disease
+NA,"Barnstable County, MA",25001,Congestive heart failure,I50.0,2023,2023,85+ years,85+,Female,F,30,Heart Disease
+NA,"Barnstable County, MA",25001,Congestive heart failure,I50.0,2023,2023,85+ years,85+,Male,M,33,Heart Disease
+NA,"Barnstable County, MA",25001,"Heart failure, unspecified",I50.9,2022,2022,85+ years,85+,Female,F,12,Heart Disease
+NA,"Barnstable County, MA",25001,"Heart failure, unspecified",I50.9,2022,2022,85+ years,85+,Male,M,13,Heart Disease
+NA,"Barnstable County, MA",25001,"Stroke, not specified as haemorrhage or infarction",I64,2021,2021,75-84 years,75-84,Male,M,13,Stroke
+NA,"Barnstable County, MA",25001,"Stroke, not specified as haemorrhage or infarction",I64,2021,2021,85+ years,85+,Female,F,27,Stroke
+NA,"Barnstable County, MA",25001,"Stroke, not specified as haemorrhage or infarction",I64,2021,2021,85+ years,85+,Male,M,13,Stroke
+NA,"Barnstable County, MA",25001,"Stroke, not specified as haemorrhage or infarction",I64,2022,2022,75-84 years,75-84,Male,M,10,Stroke
+NA,"Barnstable County, MA",25001,"Stroke, not specified as haemorrhage or infarction",I64,2022,2022,85+ years,85+,Female,F,17,Stroke
+NA,"Barnstable County, MA",25001,"Stroke, not specified as haemorrhage or infarction",I64,2023,2023,85+ years,85+,Female,F,17,Stroke
+NA,"Barnstable County, MA",25001,Sequelae of other and unspecified cerebrovascular diseases,I69.8,2021,2021,85+ years,85+,Female,F,10,Stroke
+NA,"Berkshire County, MA",25003,"Acute myocardial infarction, unspecified",I21.9,2021,2021,55-64 years,55-64,Male,M,10,Heart Disease
+NA,"Berkshire County, MA",25003,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,65-74 years,65-74,Male,M,11,Heart Disease
+NA,"Berkshire County, MA",25003,Atherosclerotic heart disease,I25.1,2021,2021,75-84 years,75-84,Female,F,10,Heart Disease
+NA,"Berkshire County, MA",25003,Atherosclerotic heart disease,I25.1,2021,2021,75-84 years,75-84,Male,M,16,Heart Disease
+NA,"Berkshire County, MA",25003,Atherosclerotic heart disease,I25.1,2021,2021,85+ years,85+,Female,F,15,Heart Disease
+NA,"Berkshire County, MA",25003,Atherosclerotic heart disease,I25.1,2021,2021,85+ years,85+,Male,M,21,Heart Disease
+NA,"Berkshire County, MA",25003,Atherosclerotic heart disease,I25.1,2022,2022,85+ years,85+,Female,F,17,Heart Disease
+NA,"Berkshire County, MA",25003,Atherosclerotic heart disease,I25.1,2022,2022,85+ years,85+,Male,M,14,Heart Disease
+NA,"Berkshire County, MA",25003,Atherosclerotic heart disease,I25.1,2023,2023,75-84 years,75-84,Male,M,14,Heart Disease
+NA,"Berkshire County, MA",25003,Atherosclerotic heart disease,I25.1,2023,2023,85+ years,85+,Female,F,16,Heart Disease
+NA,"Berkshire County, MA",25003,Atherosclerotic heart disease,I25.1,2023,2023,85+ years,85+,Male,M,16,Heart Disease
+NA,"Berkshire County, MA",25003,Aortic (valve) stenosis,I35.0,2021,2021,85+ years,85+,Female,F,10,Heart Disease
+NA,"Berkshire County, MA",25003,Aortic (valve) stenosis,I35.0,2022,2022,85+ years,85+,Female,F,10,Heart Disease
+NA,"Berkshire County, MA",25003,Aortic (valve) stenosis,I35.0,2023,2023,85+ years,85+,Female,F,10,Heart Disease
+NA,"Berkshire County, MA",25003,Atrial fibrillation and flutter,I48,2021,2021,85+ years,85+,Female,F,12,Heart Disease
+NA,"Berkshire County, MA",25003,Atrial fibrillation and flutter,I48,2022,2022,85+ years,85+,Female,F,13,Heart Disease
+NA,"Berkshire County, MA",25003,"Cardiac arrhythmia, unspecified",I49.9,2022,2022,65-74 years,65-74,Male,M,12,Heart Disease
+NA,"Berkshire County, MA",25003,Congestive heart failure,I50.0,2021,2021,85+ years,85+,Female,F,13,Heart Disease
+NA,"Berkshire County, MA",25003,Congestive heart failure,I50.0,2021,2021,85+ years,85+,Male,M,14,Heart Disease
+NA,"Berkshire County, MA",25003,Congestive heart failure,I50.0,2022,2022,85+ years,85+,Female,F,20,Heart Disease
+NA,"Berkshire County, MA",25003,Congestive heart failure,I50.0,2023,2023,85+ years,85+,Female,F,14,Heart Disease
+NA,"Berkshire County, MA",25003,Congestive heart failure,I50.0,2023,2023,85+ years,85+,Male,M,14,Heart Disease
+NA,"Berkshire County, MA",25003,"Stroke, not specified as haemorrhage or infarction",I64,2021,2021,85+ years,85+,Female,F,19,Stroke
+NA,"Berkshire County, MA",25003,"Stroke, not specified as haemorrhage or infarction",I64,2022,2022,85+ years,85+,Female,F,14,Stroke
+NA,"Bristol County, MA",25005,"Unspecified diabetes mellitus, without complications",E14.9,2021,2021,65-74 years,65-74,Male,M,12,Diabetes
+NA,"Bristol County, MA",25005,"Unspecified diabetes mellitus, without complications",E14.9,2021,2021,75-84 years,75-84,Male,M,10,Diabetes
+NA,"Bristol County, MA",25005,"Unspecified diabetes mellitus, without complications",E14.9,2021,2021,85+ years,85+,Male,M,10,Diabetes
+NA,"Bristol County, MA",25005,"Unspecified diabetes mellitus, without complications",E14.9,2022,2022,55-64 years,55-64,Male,M,10,Diabetes
+NA,"Bristol County, MA",25005,"Unspecified diabetes mellitus, without complications",E14.9,2022,2022,65-74 years,65-74,Male,M,13,Diabetes
+NA,"Bristol County, MA",25005,"Unspecified diabetes mellitus, without complications",E14.9,2022,2022,75-84 years,75-84,Male,M,10,Diabetes
+NA,"Bristol County, MA",25005,"Unspecified diabetes mellitus, without complications",E14.9,2022,2022,85+ years,85+,Female,F,11,Diabetes
+NA,"Bristol County, MA",25005,"Unspecified diabetes mellitus, without complications",E14.9,2023,2023,65-74 years,65-74,Male,M,10,Diabetes
+NA,"Bristol County, MA",25005,"Unspecified diabetes mellitus, without complications",E14.9,2023,2023,75-84 years,75-84,Male,M,11,Diabetes
+NA,"Bristol County, MA",25005,"Unspecified diabetes mellitus, without complications",E14.9,2023,2023,85+ years,85+,Female,F,10,Diabetes
+NA,"Bristol County, MA",25005,Hypertensive heart disease with (congestive) heart failure,I11.0,2022,2022,85+ years,85+,Female,F,10,Heart Disease
+NA,"Bristol County, MA",25005,"Acute myocardial infarction, unspecified",I21.9,2021,2021,55-64 years,55-64,Male,M,15,Heart Disease
+NA,"Bristol County, MA",25005,"Acute myocardial infarction, unspecified",I21.9,2021,2021,65-74 years,65-74,Male,M,21,Heart Disease
+NA,"Bristol County, MA",25005,"Acute myocardial infarction, unspecified",I21.9,2021,2021,75-84 years,75-84,Female,F,13,Heart Disease
+NA,"Bristol County, MA",25005,"Acute myocardial infarction, unspecified",I21.9,2021,2021,75-84 years,75-84,Male,M,16,Heart Disease
+NA,"Bristol County, MA",25005,"Acute myocardial infarction, unspecified",I21.9,2021,2021,85+ years,85+,Female,F,22,Heart Disease
+NA,"Bristol County, MA",25005,"Acute myocardial infarction, unspecified",I21.9,2021,2021,85+ years,85+,Male,M,12,Heart Disease
+NA,"Bristol County, MA",25005,"Acute myocardial infarction, unspecified",I21.9,2022,2022,55-64 years,55-64,Female,F,10,Heart Disease
+NA,"Bristol County, MA",25005,"Acute myocardial infarction, unspecified",I21.9,2022,2022,55-64 years,55-64,Male,M,15,Heart Disease
+NA,"Bristol County, MA",25005,"Acute myocardial infarction, unspecified",I21.9,2022,2022,65-74 years,65-74,Male,M,21,Heart Disease
+NA,"Bristol County, MA",25005,"Acute myocardial infarction, unspecified",I21.9,2022,2022,75-84 years,75-84,Female,F,14,Heart Disease
+NA,"Bristol County, MA",25005,"Acute myocardial infarction, unspecified",I21.9,2022,2022,75-84 years,75-84,Male,M,27,Heart Disease
+NA,"Bristol County, MA",25005,"Acute myocardial infarction, unspecified",I21.9,2022,2022,85+ years,85+,Female,F,17,Heart Disease
+NA,"Bristol County, MA",25005,"Acute myocardial infarction, unspecified",I21.9,2022,2022,85+ years,85+,Male,M,15,Heart Disease
+NA,"Bristol County, MA",25005,"Acute myocardial infarction, unspecified",I21.9,2023,2023,55-64 years,55-64,Male,M,14,Heart Disease
+NA,"Bristol County, MA",25005,"Acute myocardial infarction, unspecified",I21.9,2023,2023,65-74 years,65-74,Female,F,12,Heart Disease
+NA,"Bristol County, MA",25005,"Acute myocardial infarction, unspecified",I21.9,2023,2023,65-74 years,65-74,Male,M,23,Heart Disease
+NA,"Bristol County, MA",25005,"Acute myocardial infarction, unspecified",I21.9,2023,2023,75-84 years,75-84,Female,F,12,Heart Disease
+NA,"Bristol County, MA",25005,"Acute myocardial infarction, unspecified",I21.9,2023,2023,75-84 years,75-84,Male,M,27,Heart Disease
+NA,"Bristol County, MA",25005,"Acute myocardial infarction, unspecified",I21.9,2023,2023,85+ years,85+,Female,F,19,Heart Disease
+NA,"Bristol County, MA",25005,"Acute myocardial infarction, unspecified",I21.9,2023,2023,85+ years,85+,Male,M,15,Heart Disease
+NA,"Bristol County, MA",25005,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,45-54 years,45-54,Male,M,11,Heart Disease
+NA,"Bristol County, MA",25005,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,55-64 years,55-64,Male,M,26,Heart Disease
+NA,"Bristol County, MA",25005,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,65-74 years,65-74,Male,M,21,Heart Disease
+NA,"Bristol County, MA",25005,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,75-84 years,75-84,Male,M,17,Heart Disease
+NA,"Bristol County, MA",25005,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,55-64 years,55-64,Male,M,14,Heart Disease
+NA,"Bristol County, MA",25005,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,65-74 years,65-74,Female,F,13,Heart Disease
+NA,"Bristol County, MA",25005,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,65-74 years,65-74,Male,M,20,Heart Disease
+NA,"Bristol County, MA",25005,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,75-84 years,75-84,Male,M,10,Heart Disease
+NA,"Bristol County, MA",25005,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,85+ years,85+,Female,F,10,Heart Disease
+NA,"Bristol County, MA",25005,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,85+ years,85+,Male,M,10,Heart Disease
+NA,"Bristol County, MA",25005,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,45-54 years,45-54,Male,M,13,Heart Disease
+NA,"Bristol County, MA",25005,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,55-64 years,55-64,Male,M,24,Heart Disease
+NA,"Bristol County, MA",25005,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,65-74 years,65-74,Female,F,17,Heart Disease
+NA,"Bristol County, MA",25005,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,65-74 years,65-74,Male,M,21,Heart Disease
+NA,"Bristol County, MA",25005,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,75-84 years,75-84,Male,M,21,Heart Disease
+NA,"Bristol County, MA",25005,Atherosclerotic heart disease,I25.1,2021,2021,55-64 years,55-64,Male,M,16,Heart Disease
+NA,"Bristol County, MA",25005,Atherosclerotic heart disease,I25.1,2021,2021,65-74 years,65-74,Female,F,13,Heart Disease
+NA,"Bristol County, MA",25005,Atherosclerotic heart disease,I25.1,2021,2021,65-74 years,65-74,Male,M,36,Heart Disease
+NA,"Bristol County, MA",25005,Atherosclerotic heart disease,I25.1,2021,2021,75-84 years,75-84,Female,F,46,Heart Disease
+NA,"Bristol County, MA",25005,Atherosclerotic heart disease,I25.1,2021,2021,75-84 years,75-84,Male,M,40,Heart Disease
+NA,"Bristol County, MA",25005,Atherosclerotic heart disease,I25.1,2021,2021,85+ years,85+,Female,F,69,Heart Disease
+NA,"Bristol County, MA",25005,Atherosclerotic heart disease,I25.1,2021,2021,85+ years,85+,Male,M,58,Heart Disease
+NA,"Bristol County, MA",25005,Atherosclerotic heart disease,I25.1,2022,2022,55-64 years,55-64,Male,M,20,Heart Disease
+NA,"Bristol County, MA",25005,Atherosclerotic heart disease,I25.1,2022,2022,65-74 years,65-74,Male,M,25,Heart Disease
+NA,"Bristol County, MA",25005,Atherosclerotic heart disease,I25.1,2022,2022,75-84 years,75-84,Female,F,33,Heart Disease
+NA,"Bristol County, MA",25005,Atherosclerotic heart disease,I25.1,2022,2022,75-84 years,75-84,Male,M,50,Heart Disease
+NA,"Bristol County, MA",25005,Atherosclerotic heart disease,I25.1,2022,2022,85+ years,85+,Female,F,81,Heart Disease
+NA,"Bristol County, MA",25005,Atherosclerotic heart disease,I25.1,2022,2022,85+ years,85+,Male,M,59,Heart Disease
+NA,"Bristol County, MA",25005,Atherosclerotic heart disease,I25.1,2023,2023,55-64 years,55-64,Male,M,17,Heart Disease
+NA,"Bristol County, MA",25005,Atherosclerotic heart disease,I25.1,2023,2023,65-74 years,65-74,Female,F,12,Heart Disease
+NA,"Bristol County, MA",25005,Atherosclerotic heart disease,I25.1,2023,2023,65-74 years,65-74,Male,M,29,Heart Disease
+NA,"Bristol County, MA",25005,Atherosclerotic heart disease,I25.1,2023,2023,75-84 years,75-84,Female,F,29,Heart Disease
+NA,"Bristol County, MA",25005,Atherosclerotic heart disease,I25.1,2023,2023,75-84 years,75-84,Male,M,55,Heart Disease
+NA,"Bristol County, MA",25005,Atherosclerotic heart disease,I25.1,2023,2023,85+ years,85+,Female,F,67,Heart Disease
+NA,"Bristol County, MA",25005,Atherosclerotic heart disease,I25.1,2023,2023,85+ years,85+,Male,M,43,Heart Disease
+NA,"Bristol County, MA",25005,Aortic (valve) stenosis,I35.0,2021,2021,85+ years,85+,Female,F,13,Heart Disease
+NA,"Bristol County, MA",25005,"Cardiac arrest, unspecified",I46.9,2022,2022,85+ years,85+,Female,F,12,Heart Disease
+NA,"Bristol County, MA",25005,Atrial fibrillation and flutter,I48,2021,2021,75-84 years,75-84,Female,F,13,Heart Disease
+NA,"Bristol County, MA",25005,Atrial fibrillation and flutter,I48,2021,2021,75-84 years,75-84,Male,M,11,Heart Disease
+NA,"Bristol County, MA",25005,Atrial fibrillation and flutter,I48,2021,2021,85+ years,85+,Female,F,27,Heart Disease
+NA,"Bristol County, MA",25005,Atrial fibrillation and flutter,I48,2021,2021,85+ years,85+,Male,M,14,Heart Disease
+NA,"Bristol County, MA",25005,Atrial fibrillation and flutter,I48,2022,2022,75-84 years,75-84,Female,F,12,Heart Disease
+NA,"Bristol County, MA",25005,Atrial fibrillation and flutter,I48,2022,2022,85+ years,85+,Female,F,25,Heart Disease
+NA,"Bristol County, MA",25005,Atrial fibrillation and flutter,I48,2022,2022,85+ years,85+,Male,M,13,Heart Disease
+NA,"Bristol County, MA",25005,Atrial fibrillation and flutter,I48,2023,2023,75-84 years,75-84,Male,M,10,Heart Disease
+NA,"Bristol County, MA",25005,Atrial fibrillation and flutter,I48,2023,2023,85+ years,85+,Female,F,29,Heart Disease
+NA,"Bristol County, MA",25005,Atrial fibrillation and flutter,I48,2023,2023,85+ years,85+,Male,M,18,Heart Disease
+NA,"Bristol County, MA",25005,Congestive heart failure,I50.0,2021,2021,75-84 years,75-84,Female,F,16,Heart Disease
+NA,"Bristol County, MA",25005,Congestive heart failure,I50.0,2021,2021,75-84 years,75-84,Male,M,12,Heart Disease
+NA,"Bristol County, MA",25005,Congestive heart failure,I50.0,2021,2021,85+ years,85+,Female,F,39,Heart Disease
+NA,"Bristol County, MA",25005,Congestive heart failure,I50.0,2021,2021,85+ years,85+,Male,M,22,Heart Disease
+NA,"Bristol County, MA",25005,Congestive heart failure,I50.0,2022,2022,75-84 years,75-84,Female,F,15,Heart Disease
+NA,"Bristol County, MA",25005,Congestive heart failure,I50.0,2022,2022,75-84 years,75-84,Male,M,20,Heart Disease
+NA,"Bristol County, MA",25005,Congestive heart failure,I50.0,2022,2022,85+ years,85+,Female,F,55,Heart Disease
+NA,"Bristol County, MA",25005,Congestive heart failure,I50.0,2022,2022,85+ years,85+,Male,M,23,Heart Disease
+NA,"Bristol County, MA",25005,Congestive heart failure,I50.0,2023,2023,75-84 years,75-84,Female,F,16,Heart Disease
+NA,"Bristol County, MA",25005,Congestive heart failure,I50.0,2023,2023,75-84 years,75-84,Male,M,15,Heart Disease
+NA,"Bristol County, MA",25005,Congestive heart failure,I50.0,2023,2023,85+ years,85+,Female,F,59,Heart Disease
+NA,"Bristol County, MA",25005,Congestive heart failure,I50.0,2023,2023,85+ years,85+,Male,M,26,Heart Disease
+NA,"Bristol County, MA",25005,"Heart failure, unspecified",I50.9,2021,2021,85+ years,85+,Female,F,14,Heart Disease
+NA,"Bristol County, MA",25005,"Heart failure, unspecified",I50.9,2022,2022,85+ years,85+,Female,F,11,Heart Disease
+NA,"Bristol County, MA",25005,"Heart failure, unspecified",I50.9,2022,2022,85+ years,85+,Male,M,11,Heart Disease
+NA,"Bristol County, MA",25005,"Heart failure, unspecified",I50.9,2023,2023,85+ years,85+,Male,M,10,Heart Disease
+NA,"Bristol County, MA",25005,"Stroke, not specified as haemorrhage or infarction",I64,2021,2021,75-84 years,75-84,Female,F,13,Stroke
+NA,"Bristol County, MA",25005,"Stroke, not specified as haemorrhage or infarction",I64,2021,2021,75-84 years,75-84,Male,M,11,Stroke
+NA,"Bristol County, MA",25005,"Stroke, not specified as haemorrhage or infarction",I64,2021,2021,85+ years,85+,Female,F,25,Stroke
+NA,"Bristol County, MA",25005,"Stroke, not specified as haemorrhage or infarction",I64,2022,2022,75-84 years,75-84,Female,F,15,Stroke
+NA,"Bristol County, MA",25005,"Stroke, not specified as haemorrhage or infarction",I64,2022,2022,75-84 years,75-84,Male,M,14,Stroke
+NA,"Bristol County, MA",25005,"Stroke, not specified as haemorrhage or infarction",I64,2022,2022,85+ years,85+,Female,F,32,Stroke
+NA,"Bristol County, MA",25005,"Stroke, not specified as haemorrhage or infarction",I64,2022,2022,85+ years,85+,Male,M,13,Stroke
+NA,"Bristol County, MA",25005,"Stroke, not specified as haemorrhage or infarction",I64,2023,2023,85+ years,85+,Female,F,22,Stroke
+NA,"Bristol County, MA",25005,"Stroke, not specified as haemorrhage or infarction",I64,2023,2023,85+ years,85+,Male,M,14,Stroke
+NA,"Essex County, MA",25009,"Unspecified diabetes mellitus, without complications",E14.9,2021,2021,85+ years,85+,Female,F,10,Diabetes
+NA,"Essex County, MA",25009,"Unspecified diabetes mellitus, without complications",E14.9,2022,2022,55-64 years,55-64,Male,M,11,Diabetes
+NA,"Essex County, MA",25009,"Unspecified diabetes mellitus, without complications",E14.9,2022,2022,65-74 years,65-74,Male,M,12,Diabetes
+NA,"Essex County, MA",25009,"Unspecified diabetes mellitus, without complications",E14.9,2022,2022,75-84 years,75-84,Female,F,10,Diabetes
+NA,"Essex County, MA",25009,"Unspecified diabetes mellitus, without complications",E14.9,2022,2022,85+ years,85+,Male,M,11,Diabetes
+NA,"Essex County, MA",25009,"Unspecified diabetes mellitus, without complications",E14.9,2023,2023,65-74 years,65-74,Female,F,10,Diabetes
+NA,"Essex County, MA",25009,"Unspecified diabetes mellitus, without complications",E14.9,2023,2023,75-84 years,75-84,Male,M,12,Diabetes
+NA,"Essex County, MA",25009,Hypertensive heart disease with (congestive) heart failure,I11.0,2021,2021,85+ years,85+,Female,F,18,Heart Disease
+NA,"Essex County, MA",25009,Hypertensive heart disease with (congestive) heart failure,I11.0,2022,2022,85+ years,85+,Female,F,30,Heart Disease
+NA,"Essex County, MA",25009,Hypertensive heart disease with (congestive) heart failure,I11.0,2022,2022,85+ years,85+,Male,M,10,Heart Disease
+NA,"Essex County, MA",25009,Hypertensive heart disease with (congestive) heart failure,I11.0,2023,2023,85+ years,85+,Female,F,22,Heart Disease
+NA,"Essex County, MA",25009,Hypertensive heart disease with (congestive) heart failure,I11.0,2023,2023,85+ years,85+,Male,M,12,Heart Disease
+NA,"Essex County, MA",25009,Hypertensive heart disease without (congestive) heart failure,I11.9,2021,2021,85+ years,85+,Female,F,13,Heart Disease
+NA,"Essex County, MA",25009,Hypertensive heart disease without (congestive) heart failure,I11.9,2022,2022,85+ years,85+,Female,F,14,Heart Disease
+NA,"Essex County, MA",25009,Hypertensive heart and renal disease with both (congestive) heart failure and renal failure,I13.2,2022,2022,85+ years,85+,Female,F,11,Heart Disease
+NA,"Essex County, MA",25009,Hypertensive heart and renal disease with both (congestive) heart failure and renal failure,I13.2,2023,2023,85+ years,85+,Female,F,11,Heart Disease
+NA,"Essex County, MA",25009,"Acute myocardial infarction, unspecified",I21.9,2021,2021,55-64 years,55-64,Male,M,16,Heart Disease
+NA,"Essex County, MA",25009,"Acute myocardial infarction, unspecified",I21.9,2021,2021,65-74 years,65-74,Female,F,16,Heart Disease
+NA,"Essex County, MA",25009,"Acute myocardial infarction, unspecified",I21.9,2021,2021,65-74 years,65-74,Male,M,23,Heart Disease
+NA,"Essex County, MA",25009,"Acute myocardial infarction, unspecified",I21.9,2021,2021,75-84 years,75-84,Female,F,16,Heart Disease
+NA,"Essex County, MA",25009,"Acute myocardial infarction, unspecified",I21.9,2021,2021,75-84 years,75-84,Male,M,17,Heart Disease
+NA,"Essex County, MA",25009,"Acute myocardial infarction, unspecified",I21.9,2021,2021,85+ years,85+,Female,F,26,Heart Disease
+NA,"Essex County, MA",25009,"Acute myocardial infarction, unspecified",I21.9,2021,2021,85+ years,85+,Male,M,13,Heart Disease
+NA,"Essex County, MA",25009,"Acute myocardial infarction, unspecified",I21.9,2022,2022,55-64 years,55-64,Male,M,15,Heart Disease
+NA,"Essex County, MA",25009,"Acute myocardial infarction, unspecified",I21.9,2022,2022,65-74 years,65-74,Female,F,11,Heart Disease
+NA,"Essex County, MA",25009,"Acute myocardial infarction, unspecified",I21.9,2022,2022,65-74 years,65-74,Male,M,38,Heart Disease
+NA,"Essex County, MA",25009,"Acute myocardial infarction, unspecified",I21.9,2022,2022,75-84 years,75-84,Female,F,12,Heart Disease
+NA,"Essex County, MA",25009,"Acute myocardial infarction, unspecified",I21.9,2022,2022,75-84 years,75-84,Male,M,33,Heart Disease
+NA,"Essex County, MA",25009,"Acute myocardial infarction, unspecified",I21.9,2022,2022,85+ years,85+,Female,F,38,Heart Disease
+NA,"Essex County, MA",25009,"Acute myocardial infarction, unspecified",I21.9,2022,2022,85+ years,85+,Male,M,18,Heart Disease
+NA,"Essex County, MA",25009,"Acute myocardial infarction, unspecified",I21.9,2023,2023,45-54 years,45-54,Male,M,10,Heart Disease
+NA,"Essex County, MA",25009,"Acute myocardial infarction, unspecified",I21.9,2023,2023,55-64 years,55-64,Male,M,16,Heart Disease
+NA,"Essex County, MA",25009,"Acute myocardial infarction, unspecified",I21.9,2023,2023,65-74 years,65-74,Female,F,13,Heart Disease
+NA,"Essex County, MA",25009,"Acute myocardial infarction, unspecified",I21.9,2023,2023,65-74 years,65-74,Male,M,23,Heart Disease
+NA,"Essex County, MA",25009,"Acute myocardial infarction, unspecified",I21.9,2023,2023,75-84 years,75-84,Male,M,37,Heart Disease
+NA,"Essex County, MA",25009,"Acute myocardial infarction, unspecified",I21.9,2023,2023,85+ years,85+,Female,F,26,Heart Disease
+NA,"Essex County, MA",25009,"Acute myocardial infarction, unspecified",I21.9,2023,2023,85+ years,85+,Male,M,28,Heart Disease
+NA,"Essex County, MA",25009,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,55-64 years,55-64,Male,M,19,Heart Disease
+NA,"Essex County, MA",25009,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,65-74 years,65-74,Male,M,19,Heart Disease
+NA,"Essex County, MA",25009,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,85+ years,85+,Female,F,15,Heart Disease
+NA,"Essex County, MA",25009,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,85+ years,85+,Male,M,12,Heart Disease
+NA,"Essex County, MA",25009,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,55-64 years,55-64,Male,M,25,Heart Disease
+NA,"Essex County, MA",25009,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,65-74 years,65-74,Female,F,11,Heart Disease
+NA,"Essex County, MA",25009,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,65-74 years,65-74,Male,M,31,Heart Disease
+NA,"Essex County, MA",25009,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,75-84 years,75-84,Male,M,22,Heart Disease
+NA,"Essex County, MA",25009,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,85+ years,85+,Female,F,15,Heart Disease
+NA,"Essex County, MA",25009,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,85+ years,85+,Male,M,13,Heart Disease
+NA,"Essex County, MA",25009,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,45-54 years,45-54,Male,M,12,Heart Disease
+NA,"Essex County, MA",25009,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,55-64 years,55-64,Female,F,11,Heart Disease
+NA,"Essex County, MA",25009,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,55-64 years,55-64,Male,M,21,Heart Disease
+NA,"Essex County, MA",25009,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,65-74 years,65-74,Male,M,28,Heart Disease
+NA,"Essex County, MA",25009,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,75-84 years,75-84,Female,F,11,Heart Disease
+NA,"Essex County, MA",25009,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,75-84 years,75-84,Male,M,18,Heart Disease
+NA,"Essex County, MA",25009,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,85+ years,85+,Female,F,18,Heart Disease
+NA,"Essex County, MA",25009,Atherosclerotic heart disease,I25.1,2021,2021,55-64 years,55-64,Male,M,14,Heart Disease
+NA,"Essex County, MA",25009,Atherosclerotic heart disease,I25.1,2021,2021,65-74 years,65-74,Female,F,12,Heart Disease
+NA,"Essex County, MA",25009,Atherosclerotic heart disease,I25.1,2021,2021,65-74 years,65-74,Male,M,26,Heart Disease
+NA,"Essex County, MA",25009,Atherosclerotic heart disease,I25.1,2021,2021,75-84 years,75-84,Female,F,21,Heart Disease
+NA,"Essex County, MA",25009,Atherosclerotic heart disease,I25.1,2021,2021,75-84 years,75-84,Male,M,57,Heart Disease
+NA,"Essex County, MA",25009,Atherosclerotic heart disease,I25.1,2021,2021,85+ years,85+,Female,F,110,Heart Disease
+NA,"Essex County, MA",25009,Atherosclerotic heart disease,I25.1,2021,2021,85+ years,85+,Male,M,90,Heart Disease
+NA,"Essex County, MA",25009,Atherosclerotic heart disease,I25.1,2022,2022,55-64 years,55-64,Female,F,10,Heart Disease
+NA,"Essex County, MA",25009,Atherosclerotic heart disease,I25.1,2022,2022,55-64 years,55-64,Male,M,23,Heart Disease
+NA,"Essex County, MA",25009,Atherosclerotic heart disease,I25.1,2022,2022,65-74 years,65-74,Male,M,39,Heart Disease
+NA,"Essex County, MA",25009,Atherosclerotic heart disease,I25.1,2022,2022,75-84 years,75-84,Female,F,31,Heart Disease
+NA,"Essex County, MA",25009,Atherosclerotic heart disease,I25.1,2022,2022,75-84 years,75-84,Male,M,50,Heart Disease
+NA,"Essex County, MA",25009,Atherosclerotic heart disease,I25.1,2022,2022,85+ years,85+,Female,F,86,Heart Disease
+NA,"Essex County, MA",25009,Atherosclerotic heart disease,I25.1,2022,2022,85+ years,85+,Male,M,78,Heart Disease
+NA,"Essex County, MA",25009,Atherosclerotic heart disease,I25.1,2023,2023,55-64 years,55-64,Male,M,16,Heart Disease
+NA,"Essex County, MA",25009,Atherosclerotic heart disease,I25.1,2023,2023,65-74 years,65-74,Female,F,18,Heart Disease
+NA,"Essex County, MA",25009,Atherosclerotic heart disease,I25.1,2023,2023,65-74 years,65-74,Male,M,30,Heart Disease
+NA,"Essex County, MA",25009,Atherosclerotic heart disease,I25.1,2023,2023,75-84 years,75-84,Female,F,26,Heart Disease
+NA,"Essex County, MA",25009,Atherosclerotic heart disease,I25.1,2023,2023,75-84 years,75-84,Male,M,68,Heart Disease
+NA,"Essex County, MA",25009,Atherosclerotic heart disease,I25.1,2023,2023,85+ years,85+,Female,F,80,Heart Disease
+NA,"Essex County, MA",25009,Atherosclerotic heart disease,I25.1,2023,2023,85+ years,85+,Male,M,83,Heart Disease
+NA,"Essex County, MA",25009,Other secondary pulmonary hypertension,I27.2,2021,2021,85+ years,85+,Female,F,10,Heart Disease
+NA,"Essex County, MA",25009,Other secondary pulmonary hypertension,I27.2,2022,2022,85+ years,85+,Female,F,16,Heart Disease
+NA,"Essex County, MA",25009,Aortic (valve) stenosis,I35.0,2021,2021,85+ years,85+,Female,F,20,Heart Disease
+NA,"Essex County, MA",25009,Aortic (valve) stenosis,I35.0,2022,2022,85+ years,85+,Female,F,17,Heart Disease
+NA,"Essex County, MA",25009,Aortic (valve) stenosis,I35.0,2022,2022,85+ years,85+,Male,M,13,Heart Disease
+NA,"Essex County, MA",25009,Aortic (valve) stenosis,I35.0,2023,2023,85+ years,85+,Female,F,14,Heart Disease
+NA,"Essex County, MA",25009,Aortic (valve) stenosis,I35.0,2023,2023,85+ years,85+,Male,M,11,Heart Disease
+NA,"Essex County, MA",25009,"Cardiomyopathy, unspecified",I42.9,2021,2021,75-84 years,75-84,Male,M,13,Heart Disease
+NA,"Essex County, MA",25009,"Cardiac arrest, unspecified",I46.9,2021,2021,65-74 years,65-74,Male,M,10,Heart Disease
+NA,"Essex County, MA",25009,"Cardiac arrest, unspecified",I46.9,2021,2021,75-84 years,75-84,Female,F,11,Heart Disease
+NA,"Essex County, MA",25009,"Cardiac arrest, unspecified",I46.9,2021,2021,85+ years,85+,Female,F,14,Heart Disease
+NA,"Essex County, MA",25009,"Cardiac arrest, unspecified",I46.9,2021,2021,85+ years,85+,Male,M,10,Heart Disease
+NA,"Essex County, MA",25009,"Cardiac arrest, unspecified",I46.9,2022,2022,55-64 years,55-64,Male,M,12,Heart Disease
+NA,"Essex County, MA",25009,"Cardiac arrest, unspecified",I46.9,2022,2022,65-74 years,65-74,Male,M,13,Heart Disease
+NA,"Essex County, MA",25009,"Cardiac arrest, unspecified",I46.9,2022,2022,75-84 years,75-84,Female,F,10,Heart Disease
+NA,"Essex County, MA",25009,"Cardiac arrest, unspecified",I46.9,2022,2022,85+ years,85+,Female,F,17,Heart Disease
+NA,"Essex County, MA",25009,"Cardiac arrest, unspecified",I46.9,2023,2023,55-64 years,55-64,Male,M,12,Heart Disease
+NA,"Essex County, MA",25009,"Cardiac arrest, unspecified",I46.9,2023,2023,65-74 years,65-74,Male,M,11,Heart Disease
+NA,"Essex County, MA",25009,"Cardiac arrest, unspecified",I46.9,2023,2023,75-84 years,75-84,Female,F,11,Heart Disease
+NA,"Essex County, MA",25009,"Cardiac arrest, unspecified",I46.9,2023,2023,85+ years,85+,Female,F,13,Heart Disease
+NA,"Essex County, MA",25009,Atrial fibrillation and flutter,I48,2021,2021,65-74 years,65-74,Male,M,11,Heart Disease
+NA,"Essex County, MA",25009,Atrial fibrillation and flutter,I48,2021,2021,85+ years,85+,Female,F,30,Heart Disease
+NA,"Essex County, MA",25009,Atrial fibrillation and flutter,I48,2021,2021,85+ years,85+,Male,M,18,Heart Disease
+NA,"Essex County, MA",25009,Atrial fibrillation and flutter,I48,2022,2022,75-84 years,75-84,Female,F,14,Heart Disease
+NA,"Essex County, MA",25009,Atrial fibrillation and flutter,I48,2022,2022,75-84 years,75-84,Male,M,18,Heart Disease
+NA,"Essex County, MA",25009,Atrial fibrillation and flutter,I48,2022,2022,85+ years,85+,Female,F,40,Heart Disease
+NA,"Essex County, MA",25009,Atrial fibrillation and flutter,I48,2022,2022,85+ years,85+,Male,M,24,Heart Disease
+NA,"Essex County, MA",25009,Atrial fibrillation and flutter,I48,2023,2023,75-84 years,75-84,Male,M,12,Heart Disease
+NA,"Essex County, MA",25009,Atrial fibrillation and flutter,I48,2023,2023,85+ years,85+,Female,F,39,Heart Disease
+NA,"Essex County, MA",25009,Atrial fibrillation and flutter,I48,2023,2023,85+ years,85+,Male,M,20,Heart Disease
+NA,"Essex County, MA",25009,Congestive heart failure,I50.0,2021,2021,65-74 years,65-74,Female,F,10,Heart Disease
+NA,"Essex County, MA",25009,Congestive heart failure,I50.0,2021,2021,75-84 years,75-84,Female,F,16,Heart Disease
+NA,"Essex County, MA",25009,Congestive heart failure,I50.0,2021,2021,75-84 years,75-84,Male,M,17,Heart Disease
+NA,"Essex County, MA",25009,Congestive heart failure,I50.0,2021,2021,85+ years,85+,Female,F,72,Heart Disease
+NA,"Essex County, MA",25009,Congestive heart failure,I50.0,2021,2021,85+ years,85+,Male,M,45,Heart Disease
+NA,"Essex County, MA",25009,Congestive heart failure,I50.0,2022,2022,75-84 years,75-84,Female,F,10,Heart Disease
+NA,"Essex County, MA",25009,Congestive heart failure,I50.0,2022,2022,75-84 years,75-84,Male,M,18,Heart Disease
+NA,"Essex County, MA",25009,Congestive heart failure,I50.0,2022,2022,85+ years,85+,Female,F,70,Heart Disease
+NA,"Essex County, MA",25009,Congestive heart failure,I50.0,2022,2022,85+ years,85+,Male,M,46,Heart Disease
+NA,"Essex County, MA",25009,Congestive heart failure,I50.0,2023,2023,75-84 years,75-84,Female,F,15,Heart Disease
+NA,"Essex County, MA",25009,Congestive heart failure,I50.0,2023,2023,75-84 years,75-84,Male,M,15,Heart Disease
+NA,"Essex County, MA",25009,Congestive heart failure,I50.0,2023,2023,85+ years,85+,Female,F,65,Heart Disease
+NA,"Essex County, MA",25009,Congestive heart failure,I50.0,2023,2023,85+ years,85+,Male,M,29,Heart Disease
+NA,"Essex County, MA",25009,"Heart failure, unspecified",I50.9,2021,2021,85+ years,85+,Female,F,12,Heart Disease
+NA,"Essex County, MA",25009,"Heart failure, unspecified",I50.9,2021,2021,85+ years,85+,Male,M,18,Heart Disease
+NA,"Essex County, MA",25009,"Heart failure, unspecified",I50.9,2022,2022,75-84 years,75-84,Male,M,11,Heart Disease
+NA,"Essex County, MA",25009,"Heart failure, unspecified",I50.9,2022,2022,85+ years,85+,Female,F,14,Heart Disease
+NA,"Essex County, MA",25009,"Heart failure, unspecified",I50.9,2023,2023,75-84 years,75-84,Male,M,10,Heart Disease
+NA,"Essex County, MA",25009,"Heart failure, unspecified",I50.9,2023,2023,85+ years,85+,Female,F,18,Heart Disease
+NA,"Essex County, MA",25009,"Heart failure, unspecified",I50.9,2023,2023,85+ years,85+,Male,M,13,Heart Disease
+NA,"Essex County, MA",25009,"Stroke, not specified as haemorrhage or infarction",I64,2021,2021,75-84 years,75-84,Female,F,15,Stroke
+NA,"Essex County, MA",25009,"Stroke, not specified as haemorrhage or infarction",I64,2021,2021,75-84 years,75-84,Male,M,12,Stroke
+NA,"Essex County, MA",25009,"Stroke, not specified as haemorrhage or infarction",I64,2021,2021,85+ years,85+,Female,F,43,Stroke
+NA,"Essex County, MA",25009,"Stroke, not specified as haemorrhage or infarction",I64,2021,2021,85+ years,85+,Male,M,17,Stroke
+NA,"Essex County, MA",25009,"Stroke, not specified as haemorrhage or infarction",I64,2022,2022,65-74 years,65-74,Male,M,10,Stroke
+NA,"Essex County, MA",25009,"Stroke, not specified as haemorrhage or infarction",I64,2022,2022,75-84 years,75-84,Female,F,20,Stroke
+NA,"Essex County, MA",25009,"Stroke, not specified as haemorrhage or infarction",I64,2022,2022,75-84 years,75-84,Male,M,15,Stroke
+NA,"Essex County, MA",25009,"Stroke, not specified as haemorrhage or infarction",I64,2022,2022,85+ years,85+,Female,F,32,Stroke
+NA,"Essex County, MA",25009,"Stroke, not specified as haemorrhage or infarction",I64,2022,2022,85+ years,85+,Male,M,16,Stroke
+NA,"Essex County, MA",25009,"Stroke, not specified as haemorrhage or infarction",I64,2023,2023,65-74 years,65-74,Male,M,15,Stroke
+NA,"Essex County, MA",25009,"Stroke, not specified as haemorrhage or infarction",I64,2023,2023,75-84 years,75-84,Female,F,12,Stroke
+NA,"Essex County, MA",25009,"Stroke, not specified as haemorrhage or infarction",I64,2023,2023,75-84 years,75-84,Male,M,12,Stroke
+NA,"Essex County, MA",25009,"Stroke, not specified as haemorrhage or infarction",I64,2023,2023,85+ years,85+,Female,F,43,Stroke
+NA,"Essex County, MA",25009,"Stroke, not specified as haemorrhage or infarction",I64,2023,2023,85+ years,85+,Male,M,20,Stroke
+NA,"Essex County, MA",25009,"Sequelae of stroke, not specified as haemorrhage or infarction",I69.4,2021,2021,85+ years,85+,Female,F,11,Stroke
+NA,"Essex County, MA",25009,"Sequelae of stroke, not specified as haemorrhage or infarction",I69.4,2022,2022,85+ years,85+,Female,F,10,Stroke
+NA,"Essex County, MA",25009,Sequelae of other and unspecified cerebrovascular diseases,I69.8,2021,2021,85+ years,85+,Female,F,11,Stroke
+NA,"Essex County, MA",25009,Sequelae of other and unspecified cerebrovascular diseases,I69.8,2022,2022,85+ years,85+,Female,F,20,Stroke
+NA,"Essex County, MA",25009,Sequelae of other and unspecified cerebrovascular diseases,I69.8,2023,2023,75-84 years,75-84,Female,F,10,Stroke
+NA,"Essex County, MA",25009,Sequelae of other and unspecified cerebrovascular diseases,I69.8,2023,2023,85+ years,85+,Female,F,17,Stroke
+NA,"Franklin County, MA",25011,Congestive heart failure,I50.0,2021,2021,85+ years,85+,Female,F,12,Heart Disease
+NA,"Franklin County, MA",25011,Congestive heart failure,I50.0,2022,2022,85+ years,85+,Female,F,10,Heart Disease
+NA,"Franklin County, MA",25011,Congestive heart failure,I50.0,2023,2023,85+ years,85+,Female,F,14,Heart Disease
+NA,"Hampden County, MA",25013,"Unspecified diabetes mellitus, without complications",E14.9,2021,2021,75-84 years,75-84,Male,M,12,Diabetes
+NA,"Hampden County, MA",25013,"Unspecified diabetes mellitus, without complications",E14.9,2022,2022,75-84 years,75-84,Female,F,11,Diabetes
+NA,"Hampden County, MA",25013,"Unspecified diabetes mellitus, without complications",E14.9,2023,2023,65-74 years,65-74,Female,F,10,Diabetes
+NA,"Hampden County, MA",25013,Hypertensive heart disease with (congestive) heart failure,I11.0,2023,2023,85+ years,85+,Female,F,10,Heart Disease
+NA,"Hampden County, MA",25013,"Acute myocardial infarction, unspecified",I21.9,2021,2021,55-64 years,55-64,Male,M,15,Heart Disease
+NA,"Hampden County, MA",25013,"Acute myocardial infarction, unspecified",I21.9,2021,2021,65-74 years,65-74,Male,M,26,Heart Disease
+NA,"Hampden County, MA",25013,"Acute myocardial infarction, unspecified",I21.9,2021,2021,75-84 years,75-84,Female,F,14,Heart Disease
+NA,"Hampden County, MA",25013,"Acute myocardial infarction, unspecified",I21.9,2021,2021,75-84 years,75-84,Male,M,20,Heart Disease
+NA,"Hampden County, MA",25013,"Acute myocardial infarction, unspecified",I21.9,2021,2021,85+ years,85+,Female,F,24,Heart Disease
+NA,"Hampden County, MA",25013,"Acute myocardial infarction, unspecified",I21.9,2021,2021,85+ years,85+,Male,M,13,Heart Disease
+NA,"Hampden County, MA",25013,"Acute myocardial infarction, unspecified",I21.9,2022,2022,55-64 years,55-64,Male,M,12,Heart Disease
+NA,"Hampden County, MA",25013,"Acute myocardial infarction, unspecified",I21.9,2022,2022,65-74 years,65-74,Male,M,16,Heart Disease
+NA,"Hampden County, MA",25013,"Acute myocardial infarction, unspecified",I21.9,2022,2022,75-84 years,75-84,Male,M,12,Heart Disease
+NA,"Hampden County, MA",25013,"Acute myocardial infarction, unspecified",I21.9,2022,2022,85+ years,85+,Female,F,24,Heart Disease
+NA,"Hampden County, MA",25013,"Acute myocardial infarction, unspecified",I21.9,2023,2023,65-74 years,65-74,Male,M,12,Heart Disease
+NA,"Hampden County, MA",25013,"Acute myocardial infarction, unspecified",I21.9,2023,2023,75-84 years,75-84,Female,F,10,Heart Disease
+NA,"Hampden County, MA",25013,"Acute myocardial infarction, unspecified",I21.9,2023,2023,75-84 years,75-84,Male,M,15,Heart Disease
+NA,"Hampden County, MA",25013,"Acute myocardial infarction, unspecified",I21.9,2023,2023,85+ years,85+,Female,F,10,Heart Disease
+NA,"Hampden County, MA",25013,"Acute myocardial infarction, unspecified",I21.9,2023,2023,85+ years,85+,Male,M,12,Heart Disease
+NA,"Hampden County, MA",25013,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,55-64 years,55-64,Male,M,13,Heart Disease
+NA,"Hampden County, MA",25013,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,65-74 years,65-74,Male,M,16,Heart Disease
+NA,"Hampden County, MA",25013,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,75-84 years,75-84,Male,M,10,Heart Disease
+NA,"Hampden County, MA",25013,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,75-84 years,75-84,Male,M,14,Heart Disease
+NA,"Hampden County, MA",25013,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,45-54 years,45-54,Male,M,11,Heart Disease
+NA,"Hampden County, MA",25013,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,55-64 years,55-64,Male,M,18,Heart Disease
+NA,"Hampden County, MA",25013,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,65-74 years,65-74,Male,M,19,Heart Disease
+NA,"Hampden County, MA",25013,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,75-84 years,75-84,Male,M,10,Heart Disease
+NA,"Hampden County, MA",25013,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,85+ years,85+,Female,F,10,Heart Disease
+NA,"Hampden County, MA",25013,Atherosclerotic heart disease,I25.1,2021,2021,55-64 years,55-64,Male,M,12,Heart Disease
+NA,"Hampden County, MA",25013,Atherosclerotic heart disease,I25.1,2021,2021,65-74 years,65-74,Female,F,14,Heart Disease
+NA,"Hampden County, MA",25013,Atherosclerotic heart disease,I25.1,2021,2021,65-74 years,65-74,Male,M,23,Heart Disease
+NA,"Hampden County, MA",25013,Atherosclerotic heart disease,I25.1,2021,2021,75-84 years,75-84,Female,F,16,Heart Disease
+NA,"Hampden County, MA",25013,Atherosclerotic heart disease,I25.1,2021,2021,75-84 years,75-84,Male,M,39,Heart Disease
+NA,"Hampden County, MA",25013,Atherosclerotic heart disease,I25.1,2021,2021,85+ years,85+,Female,F,29,Heart Disease
+NA,"Hampden County, MA",25013,Atherosclerotic heart disease,I25.1,2021,2021,85+ years,85+,Male,M,39,Heart Disease
+NA,"Hampden County, MA",25013,Atherosclerotic heart disease,I25.1,2022,2022,65-74 years,65-74,Male,M,32,Heart Disease
+NA,"Hampden County, MA",25013,Atherosclerotic heart disease,I25.1,2022,2022,75-84 years,75-84,Female,F,22,Heart Disease
+NA,"Hampden County, MA",25013,Atherosclerotic heart disease,I25.1,2022,2022,75-84 years,75-84,Male,M,39,Heart Disease
+NA,"Hampden County, MA",25013,Atherosclerotic heart disease,I25.1,2022,2022,85+ years,85+,Female,F,41,Heart Disease
+NA,"Hampden County, MA",25013,Atherosclerotic heart disease,I25.1,2022,2022,85+ years,85+,Male,M,27,Heart Disease
+NA,"Hampden County, MA",25013,Atherosclerotic heart disease,I25.1,2023,2023,65-74 years,65-74,Female,F,13,Heart Disease
+NA,"Hampden County, MA",25013,Atherosclerotic heart disease,I25.1,2023,2023,65-74 years,65-74,Male,M,29,Heart Disease
+NA,"Hampden County, MA",25013,Atherosclerotic heart disease,I25.1,2023,2023,75-84 years,75-84,Female,F,17,Heart Disease
+NA,"Hampden County, MA",25013,Atherosclerotic heart disease,I25.1,2023,2023,75-84 years,75-84,Male,M,31,Heart Disease
+NA,"Hampden County, MA",25013,Atherosclerotic heart disease,I25.1,2023,2023,85+ years,85+,Female,F,40,Heart Disease
+NA,"Hampden County, MA",25013,Atherosclerotic heart disease,I25.1,2023,2023,85+ years,85+,Male,M,26,Heart Disease
+NA,"Hampden County, MA",25013,Ischaemic cardiomyopathy,I25.5,2022,2022,85+ years,85+,Male,M,15,Heart Disease
+NA,"Hampden County, MA",25013,Aortic (valve) stenosis,I35.0,2021,2021,85+ years,85+,Female,F,15,Heart Disease
+NA,"Hampden County, MA",25013,Aortic (valve) stenosis,I35.0,2022,2022,85+ years,85+,Female,F,14,Heart Disease
+NA,"Hampden County, MA",25013,Aortic (valve) stenosis,I35.0,2023,2023,85+ years,85+,Female,F,13,Heart Disease
+NA,"Hampden County, MA",25013,"Cardiomyopathy, unspecified",I42.9,2022,2022,85+ years,85+,Female,F,11,Heart Disease
+NA,"Hampden County, MA",25013,Atrial fibrillation and flutter,I48,2021,2021,85+ years,85+,Female,F,16,Heart Disease
+NA,"Hampden County, MA",25013,Atrial fibrillation and flutter,I48,2021,2021,85+ years,85+,Male,M,11,Heart Disease
+NA,"Hampden County, MA",25013,Atrial fibrillation and flutter,I48,2022,2022,85+ years,85+,Female,F,12,Heart Disease
+NA,"Hampden County, MA",25013,Atrial fibrillation and flutter,I48,2022,2022,85+ years,85+,Male,M,11,Heart Disease
+NA,"Hampden County, MA",25013,Atrial fibrillation and flutter,I48,2023,2023,75-84 years,75-84,Female,F,10,Heart Disease
+NA,"Hampden County, MA",25013,Atrial fibrillation and flutter,I48,2023,2023,85+ years,85+,Female,F,28,Heart Disease
+NA,"Hampden County, MA",25013,Atrial fibrillation and flutter,I48,2023,2023,85+ years,85+,Male,M,10,Heart Disease
+NA,"Hampden County, MA",25013,"Cardiac arrhythmia, unspecified",I49.9,2022,2022,55-64 years,55-64,Male,M,10,Heart Disease
+NA,"Hampden County, MA",25013,"Cardiac arrhythmia, unspecified",I49.9,2023,2023,65-74 years,65-74,Female,F,10,Heart Disease
+NA,"Hampden County, MA",25013,"Cardiac arrhythmia, unspecified",I49.9,2023,2023,65-74 years,65-74,Male,M,10,Heart Disease
+NA,"Hampden County, MA",25013,Congestive heart failure,I50.0,2021,2021,75-84 years,75-84,Female,F,12,Heart Disease
+NA,"Hampden County, MA",25013,Congestive heart failure,I50.0,2021,2021,75-84 years,75-84,Male,M,11,Heart Disease
+NA,"Hampden County, MA",25013,Congestive heart failure,I50.0,2021,2021,85+ years,85+,Female,F,59,Heart Disease
+NA,"Hampden County, MA",25013,Congestive heart failure,I50.0,2021,2021,85+ years,85+,Male,M,29,Heart Disease
+NA,"Hampden County, MA",25013,Congestive heart failure,I50.0,2022,2022,65-74 years,65-74,Male,M,13,Heart Disease
+NA,"Hampden County, MA",25013,Congestive heart failure,I50.0,2022,2022,75-84 years,75-84,Female,F,10,Heart Disease
+NA,"Hampden County, MA",25013,Congestive heart failure,I50.0,2022,2022,75-84 years,75-84,Male,M,21,Heart Disease
+NA,"Hampden County, MA",25013,Congestive heart failure,I50.0,2022,2022,85+ years,85+,Female,F,58,Heart Disease
+NA,"Hampden County, MA",25013,Congestive heart failure,I50.0,2022,2022,85+ years,85+,Male,M,31,Heart Disease
+NA,"Hampden County, MA",25013,Congestive heart failure,I50.0,2023,2023,75-84 years,75-84,Female,F,17,Heart Disease
+NA,"Hampden County, MA",25013,Congestive heart failure,I50.0,2023,2023,75-84 years,75-84,Male,M,13,Heart Disease
+NA,"Hampden County, MA",25013,Congestive heart failure,I50.0,2023,2023,85+ years,85+,Female,F,41,Heart Disease
+NA,"Hampden County, MA",25013,Congestive heart failure,I50.0,2023,2023,85+ years,85+,Male,M,33,Heart Disease
+NA,"Hampden County, MA",25013,"Heart failure, unspecified",I50.9,2021,2021,85+ years,85+,Female,F,21,Heart Disease
+NA,"Hampden County, MA",25013,"Heart failure, unspecified",I50.9,2021,2021,85+ years,85+,Male,M,10,Heart Disease
+NA,"Hampden County, MA",25013,"Heart failure, unspecified",I50.9,2022,2022,75-84 years,75-84,Female,F,12,Heart Disease
+NA,"Hampden County, MA",25013,"Heart failure, unspecified",I50.9,2022,2022,85+ years,85+,Female,F,15,Heart Disease
+NA,"Hampden County, MA",25013,"Heart failure, unspecified",I50.9,2022,2022,85+ years,85+,Male,M,10,Heart Disease
+NA,"Hampden County, MA",25013,"Heart failure, unspecified",I50.9,2023,2023,75-84 years,75-84,Female,F,10,Heart Disease
+NA,"Hampden County, MA",25013,"Heart failure, unspecified",I50.9,2023,2023,85+ years,85+,Female,F,24,Heart Disease
+NA,"Hampden County, MA",25013,"Heart failure, unspecified",I50.9,2023,2023,85+ years,85+,Male,M,15,Heart Disease
+NA,"Hampden County, MA",25013,"Stroke, not specified as haemorrhage or infarction",I64,2021,2021,75-84 years,75-84,Female,F,13,Stroke
+NA,"Hampden County, MA",25013,"Stroke, not specified as haemorrhage or infarction",I64,2021,2021,85+ years,85+,Female,F,31,Stroke
+NA,"Hampden County, MA",25013,"Stroke, not specified as haemorrhage or infarction",I64,2021,2021,85+ years,85+,Male,M,17,Stroke
+NA,"Hampden County, MA",25013,"Stroke, not specified as haemorrhage or infarction",I64,2022,2022,85+ years,85+,Female,F,26,Stroke
+NA,"Hampden County, MA",25013,"Stroke, not specified as haemorrhage or infarction",I64,2022,2022,85+ years,85+,Male,M,15,Stroke
+NA,"Hampden County, MA",25013,"Stroke, not specified as haemorrhage or infarction",I64,2023,2023,85+ years,85+,Female,F,26,Stroke
+NA,"Hampshire County, MA",25015,"Acute myocardial infarction, unspecified",I21.9,2021,2021,85+ years,85+,Female,F,10,Heart Disease
+NA,"Hampshire County, MA",25015,Atherosclerotic heart disease,I25.1,2021,2021,85+ years,85+,Female,F,13,Heart Disease
+NA,"Hampshire County, MA",25015,Atherosclerotic heart disease,I25.1,2021,2021,85+ years,85+,Male,M,17,Heart Disease
+NA,"Hampshire County, MA",25015,Atherosclerotic heart disease,I25.1,2022,2022,85+ years,85+,Female,F,10,Heart Disease
+NA,"Hampshire County, MA",25015,Atherosclerotic heart disease,I25.1,2022,2022,85+ years,85+,Male,M,18,Heart Disease
+NA,"Hampshire County, MA",25015,Atherosclerotic heart disease,I25.1,2023,2023,75-84 years,75-84,Male,M,11,Heart Disease
+NA,"Hampshire County, MA",25015,Atherosclerotic heart disease,I25.1,2023,2023,85+ years,85+,Female,F,18,Heart Disease
+NA,"Hampshire County, MA",25015,Atherosclerotic heart disease,I25.1,2023,2023,85+ years,85+,Male,M,16,Heart Disease
+NA,"Hampshire County, MA",25015,Congestive heart failure,I50.0,2021,2021,85+ years,85+,Female,F,23,Heart Disease
+NA,"Hampshire County, MA",25015,Congestive heart failure,I50.0,2022,2022,85+ years,85+,Female,F,24,Heart Disease
+NA,"Hampshire County, MA",25015,Congestive heart failure,I50.0,2023,2023,85+ years,85+,Female,F,19,Heart Disease
+NA,"Hampshire County, MA",25015,Congestive heart failure,I50.0,2023,2023,85+ years,85+,Male,M,15,Heart Disease
+NA,"Hampshire County, MA",25015,"Heart failure, unspecified",I50.9,2023,2023,85+ years,85+,Female,F,10,Heart Disease
+NA,"Middlesex County, MA",25017,"Non-insulin-dependent diabetes mellitus, without complications",E11.9,2021,2021,65-74 years,65-74,Male,M,11,Diabetes
+NA,"Middlesex County, MA",25017,"Non-insulin-dependent diabetes mellitus, without complications",E11.9,2021,2021,85+ years,85+,Female,F,11,Diabetes
+NA,"Middlesex County, MA",25017,"Non-insulin-dependent diabetes mellitus, without complications",E11.9,2022,2022,85+ years,85+,Female,F,10,Diabetes
+NA,"Middlesex County, MA",25017,"Non-insulin-dependent diabetes mellitus, without complications",E11.9,2023,2023,65-74 years,65-74,Male,M,11,Diabetes
+NA,"Middlesex County, MA",25017,"Unspecified diabetes mellitus, with renal complications",E14.2,2022,2022,75-84 years,75-84,Male,M,10,Diabetes
+NA,"Middlesex County, MA",25017,"Unspecified diabetes mellitus, with renal complications",E14.2,2022,2022,85+ years,85+,Male,M,11,Diabetes
+NA,"Middlesex County, MA",25017,"Unspecified diabetes mellitus, without complications",E14.9,2021,2021,55-64 years,55-64,Male,M,16,Diabetes
+NA,"Middlesex County, MA",25017,"Unspecified diabetes mellitus, without complications",E14.9,2021,2021,65-74 years,65-74,Male,M,25,Diabetes
+NA,"Middlesex County, MA",25017,"Unspecified diabetes mellitus, without complications",E14.9,2021,2021,75-84 years,75-84,Female,F,13,Diabetes
+NA,"Middlesex County, MA",25017,"Unspecified diabetes mellitus, without complications",E14.9,2021,2021,75-84 years,75-84,Male,M,15,Diabetes
+NA,"Middlesex County, MA",25017,"Unspecified diabetes mellitus, without complications",E14.9,2021,2021,85+ years,85+,Female,F,23,Diabetes
+NA,"Middlesex County, MA",25017,"Unspecified diabetes mellitus, without complications",E14.9,2021,2021,85+ years,85+,Male,M,19,Diabetes
+NA,"Middlesex County, MA",25017,"Unspecified diabetes mellitus, without complications",E14.9,2022,2022,55-64 years,55-64,Male,M,15,Diabetes
+NA,"Middlesex County, MA",25017,"Unspecified diabetes mellitus, without complications",E14.9,2022,2022,65-74 years,65-74,Female,F,12,Diabetes
+NA,"Middlesex County, MA",25017,"Unspecified diabetes mellitus, without complications",E14.9,2022,2022,65-74 years,65-74,Male,M,13,Diabetes
+NA,"Middlesex County, MA",25017,"Unspecified diabetes mellitus, without complications",E14.9,2022,2022,75-84 years,75-84,Female,F,14,Diabetes
+NA,"Middlesex County, MA",25017,"Unspecified diabetes mellitus, without complications",E14.9,2022,2022,75-84 years,75-84,Male,M,14,Diabetes
+NA,"Middlesex County, MA",25017,"Unspecified diabetes mellitus, without complications",E14.9,2022,2022,85+ years,85+,Female,F,18,Diabetes
+NA,"Middlesex County, MA",25017,"Unspecified diabetes mellitus, without complications",E14.9,2022,2022,85+ years,85+,Male,M,12,Diabetes
+NA,"Middlesex County, MA",25017,"Unspecified diabetes mellitus, without complications",E14.9,2023,2023,55-64 years,55-64,Male,M,14,Diabetes
+NA,"Middlesex County, MA",25017,"Unspecified diabetes mellitus, without complications",E14.9,2023,2023,65-74 years,65-74,Female,F,10,Diabetes
+NA,"Middlesex County, MA",25017,"Unspecified diabetes mellitus, without complications",E14.9,2023,2023,65-74 years,65-74,Male,M,15,Diabetes
+NA,"Middlesex County, MA",25017,"Unspecified diabetes mellitus, without complications",E14.9,2023,2023,75-84 years,75-84,Male,M,15,Diabetes
+NA,"Middlesex County, MA",25017,"Unspecified diabetes mellitus, without complications",E14.9,2023,2023,85+ years,85+,Female,F,17,Diabetes
+NA,"Middlesex County, MA",25017,"Unspecified diabetes mellitus, without complications",E14.9,2023,2023,85+ years,85+,Male,M,14,Diabetes
+NA,"Middlesex County, MA",25017,Hypertensive heart disease with (congestive) heart failure,I11.0,2021,2021,85+ years,85+,Female,F,31,Heart Disease
+NA,"Middlesex County, MA",25017,Hypertensive heart disease with (congestive) heart failure,I11.0,2021,2021,85+ years,85+,Male,M,12,Heart Disease
+NA,"Middlesex County, MA",25017,Hypertensive heart disease with (congestive) heart failure,I11.0,2022,2022,85+ years,85+,Female,F,35,Heart Disease
+NA,"Middlesex County, MA",25017,Hypertensive heart disease with (congestive) heart failure,I11.0,2022,2022,85+ years,85+,Male,M,12,Heart Disease
+NA,"Middlesex County, MA",25017,Hypertensive heart disease with (congestive) heart failure,I11.0,2023,2023,85+ years,85+,Female,F,40,Heart Disease
+NA,"Middlesex County, MA",25017,Hypertensive heart disease with (congestive) heart failure,I11.0,2023,2023,85+ years,85+,Male,M,14,Heart Disease
+NA,"Middlesex County, MA",25017,Hypertensive heart disease without (congestive) heart failure,I11.9,2022,2022,65-74 years,65-74,Male,M,11,Heart Disease
+NA,"Middlesex County, MA",25017,Hypertensive heart disease without (congestive) heart failure,I11.9,2022,2022,85+ years,85+,Female,F,13,Heart Disease
+NA,"Middlesex County, MA",25017,Hypertensive heart and renal disease with both (congestive) heart failure and renal failure,I13.2,2021,2021,85+ years,85+,Female,F,13,Heart Disease
+NA,"Middlesex County, MA",25017,Acute subendocardial myocardial infarction,I21.4,2021,2021,85+ years,85+,Female,F,10,Heart Disease
+NA,"Middlesex County, MA",25017,Acute subendocardial myocardial infarction,I21.4,2022,2022,85+ years,85+,Female,F,11,Heart Disease
+NA,"Middlesex County, MA",25017,Acute subendocardial myocardial infarction,I21.4,2023,2023,65-74 years,65-74,Male,M,10,Heart Disease
+NA,"Middlesex County, MA",25017,Acute subendocardial myocardial infarction,I21.4,2023,2023,85+ years,85+,Female,F,11,Heart Disease
+NA,"Middlesex County, MA",25017,Acute subendocardial myocardial infarction,I21.4,2023,2023,85+ years,85+,Male,M,10,Heart Disease
+NA,"Middlesex County, MA",25017,"Acute myocardial infarction, unspecified",I21.9,2021,2021,55-64 years,55-64,Female,F,11,Heart Disease
+NA,"Middlesex County, MA",25017,"Acute myocardial infarction, unspecified",I21.9,2021,2021,55-64 years,55-64,Male,M,23,Heart Disease
+NA,"Middlesex County, MA",25017,"Acute myocardial infarction, unspecified",I21.9,2021,2021,65-74 years,65-74,Female,F,10,Heart Disease
+NA,"Middlesex County, MA",25017,"Acute myocardial infarction, unspecified",I21.9,2021,2021,65-74 years,65-74,Male,M,38,Heart Disease
+NA,"Middlesex County, MA",25017,"Acute myocardial infarction, unspecified",I21.9,2021,2021,75-84 years,75-84,Female,F,28,Heart Disease
+NA,"Middlesex County, MA",25017,"Acute myocardial infarction, unspecified",I21.9,2021,2021,75-84 years,75-84,Male,M,30,Heart Disease
+NA,"Middlesex County, MA",25017,"Acute myocardial infarction, unspecified",I21.9,2021,2021,85+ years,85+,Female,F,53,Heart Disease
+NA,"Middlesex County, MA",25017,"Acute myocardial infarction, unspecified",I21.9,2021,2021,85+ years,85+,Male,M,31,Heart Disease
+NA,"Middlesex County, MA",25017,"Acute myocardial infarction, unspecified",I21.9,2022,2022,55-64 years,55-64,Male,M,21,Heart Disease
+NA,"Middlesex County, MA",25017,"Acute myocardial infarction, unspecified",I21.9,2022,2022,65-74 years,65-74,Female,F,11,Heart Disease
+NA,"Middlesex County, MA",25017,"Acute myocardial infarction, unspecified",I21.9,2022,2022,65-74 years,65-74,Male,M,42,Heart Disease
+NA,"Middlesex County, MA",25017,"Acute myocardial infarction, unspecified",I21.9,2022,2022,75-84 years,75-84,Female,F,28,Heart Disease
+NA,"Middlesex County, MA",25017,"Acute myocardial infarction, unspecified",I21.9,2022,2022,75-84 years,75-84,Male,M,41,Heart Disease
+NA,"Middlesex County, MA",25017,"Acute myocardial infarction, unspecified",I21.9,2022,2022,85+ years,85+,Female,F,43,Heart Disease
+NA,"Middlesex County, MA",25017,"Acute myocardial infarction, unspecified",I21.9,2022,2022,85+ years,85+,Male,M,34,Heart Disease
+NA,"Middlesex County, MA",25017,"Acute myocardial infarction, unspecified",I21.9,2023,2023,45-54 years,45-54,Male,M,10,Heart Disease
+NA,"Middlesex County, MA",25017,"Acute myocardial infarction, unspecified",I21.9,2023,2023,55-64 years,55-64,Male,M,18,Heart Disease
+NA,"Middlesex County, MA",25017,"Acute myocardial infarction, unspecified",I21.9,2023,2023,65-74 years,65-74,Female,F,12,Heart Disease
+NA,"Middlesex County, MA",25017,"Acute myocardial infarction, unspecified",I21.9,2023,2023,65-74 years,65-74,Male,M,21,Heart Disease
+NA,"Middlesex County, MA",25017,"Acute myocardial infarction, unspecified",I21.9,2023,2023,75-84 years,75-84,Female,F,22,Heart Disease
+NA,"Middlesex County, MA",25017,"Acute myocardial infarction, unspecified",I21.9,2023,2023,75-84 years,75-84,Male,M,40,Heart Disease
+NA,"Middlesex County, MA",25017,"Acute myocardial infarction, unspecified",I21.9,2023,2023,85+ years,85+,Female,F,33,Heart Disease
+NA,"Middlesex County, MA",25017,"Acute myocardial infarction, unspecified",I21.9,2023,2023,85+ years,85+,Male,M,28,Heart Disease
+NA,"Middlesex County, MA",25017,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,45-54 years,45-54,Male,M,18,Heart Disease
+NA,"Middlesex County, MA",25017,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,55-64 years,55-64,Female,F,11,Heart Disease
+NA,"Middlesex County, MA",25017,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,55-64 years,55-64,Male,M,33,Heart Disease
+NA,"Middlesex County, MA",25017,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,65-74 years,65-74,Female,F,16,Heart Disease
+NA,"Middlesex County, MA",25017,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,65-74 years,65-74,Male,M,49,Heart Disease
+NA,"Middlesex County, MA",25017,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,75-84 years,75-84,Female,F,26,Heart Disease
+NA,"Middlesex County, MA",25017,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,75-84 years,75-84,Male,M,25,Heart Disease
+NA,"Middlesex County, MA",25017,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,85+ years,85+,Female,F,22,Heart Disease
+NA,"Middlesex County, MA",25017,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,85+ years,85+,Male,M,18,Heart Disease
+NA,"Middlesex County, MA",25017,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,35-44 years,35-44,Male,M,10,Heart Disease
+NA,"Middlesex County, MA",25017,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,45-54 years,45-54,Male,M,13,Heart Disease
+NA,"Middlesex County, MA",25017,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,55-64 years,55-64,Female,F,15,Heart Disease
+NA,"Middlesex County, MA",25017,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,55-64 years,55-64,Male,M,41,Heart Disease
+NA,"Middlesex County, MA",25017,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,65-74 years,65-74,Female,F,16,Heart Disease
+NA,"Middlesex County, MA",25017,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,65-74 years,65-74,Male,M,40,Heart Disease
+NA,"Middlesex County, MA",25017,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,75-84 years,75-84,Female,F,17,Heart Disease
+NA,"Middlesex County, MA",25017,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,75-84 years,75-84,Male,M,31,Heart Disease
+NA,"Middlesex County, MA",25017,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,85+ years,85+,Female,F,25,Heart Disease
+NA,"Middlesex County, MA",25017,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,85+ years,85+,Male,M,16,Heart Disease
+NA,"Middlesex County, MA",25017,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,35-44 years,35-44,Male,M,12,Heart Disease
+NA,"Middlesex County, MA",25017,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,45-54 years,45-54,Male,M,20,Heart Disease
+NA,"Middlesex County, MA",25017,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,55-64 years,55-64,Female,F,11,Heart Disease
+NA,"Middlesex County, MA",25017,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,55-64 years,55-64,Male,M,28,Heart Disease
+NA,"Middlesex County, MA",25017,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,65-74 years,65-74,Female,F,20,Heart Disease
+NA,"Middlesex County, MA",25017,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,65-74 years,65-74,Male,M,33,Heart Disease
+NA,"Middlesex County, MA",25017,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,75-84 years,75-84,Female,F,24,Heart Disease
+NA,"Middlesex County, MA",25017,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,75-84 years,75-84,Male,M,36,Heart Disease
+NA,"Middlesex County, MA",25017,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,85+ years,85+,Female,F,23,Heart Disease
+NA,"Middlesex County, MA",25017,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,85+ years,85+,Male,M,11,Heart Disease
+NA,"Middlesex County, MA",25017,Atherosclerotic heart disease,I25.1,2021,2021,55-64 years,55-64,Male,M,24,Heart Disease
+NA,"Middlesex County, MA",25017,Atherosclerotic heart disease,I25.1,2021,2021,65-74 years,65-74,Female,F,29,Heart Disease
+NA,"Middlesex County, MA",25017,Atherosclerotic heart disease,I25.1,2021,2021,65-74 years,65-74,Male,M,53,Heart Disease
+NA,"Middlesex County, MA",25017,Atherosclerotic heart disease,I25.1,2021,2021,75-84 years,75-84,Female,F,59,Heart Disease
+NA,"Middlesex County, MA",25017,Atherosclerotic heart disease,I25.1,2021,2021,75-84 years,75-84,Male,M,92,Heart Disease
+NA,"Middlesex County, MA",25017,Atherosclerotic heart disease,I25.1,2021,2021,85+ years,85+,Female,F,151,Heart Disease
+NA,"Middlesex County, MA",25017,Atherosclerotic heart disease,I25.1,2021,2021,85+ years,85+,Male,M,168,Heart Disease
+NA,"Middlesex County, MA",25017,Atherosclerotic heart disease,I25.1,2022,2022,55-64 years,55-64,Male,M,21,Heart Disease
+NA,"Middlesex County, MA",25017,Atherosclerotic heart disease,I25.1,2022,2022,65-74 years,65-74,Female,F,25,Heart Disease
+NA,"Middlesex County, MA",25017,Atherosclerotic heart disease,I25.1,2022,2022,65-74 years,65-74,Male,M,43,Heart Disease
+NA,"Middlesex County, MA",25017,Atherosclerotic heart disease,I25.1,2022,2022,75-84 years,75-84,Female,F,55,Heart Disease
+NA,"Middlesex County, MA",25017,Atherosclerotic heart disease,I25.1,2022,2022,75-84 years,75-84,Male,M,92,Heart Disease
+NA,"Middlesex County, MA",25017,Atherosclerotic heart disease,I25.1,2022,2022,85+ years,85+,Female,F,186,Heart Disease
+NA,"Middlesex County, MA",25017,Atherosclerotic heart disease,I25.1,2022,2022,85+ years,85+,Male,M,135,Heart Disease
+NA,"Middlesex County, MA",25017,Atherosclerotic heart disease,I25.1,2023,2023,55-64 years,55-64,Male,M,19,Heart Disease
+NA,"Middlesex County, MA",25017,Atherosclerotic heart disease,I25.1,2023,2023,65-74 years,65-74,Female,F,21,Heart Disease
+NA,"Middlesex County, MA",25017,Atherosclerotic heart disease,I25.1,2023,2023,65-74 years,65-74,Male,M,64,Heart Disease
+NA,"Middlesex County, MA",25017,Atherosclerotic heart disease,I25.1,2023,2023,75-84 years,75-84,Female,F,51,Heart Disease
+NA,"Middlesex County, MA",25017,Atherosclerotic heart disease,I25.1,2023,2023,75-84 years,75-84,Male,M,95,Heart Disease
+NA,"Middlesex County, MA",25017,Atherosclerotic heart disease,I25.1,2023,2023,85+ years,85+,Female,F,139,Heart Disease
+NA,"Middlesex County, MA",25017,Atherosclerotic heart disease,I25.1,2023,2023,85+ years,85+,Male,M,141,Heart Disease
+NA,"Middlesex County, MA",25017,Ischaemic cardiomyopathy,I25.5,2021,2021,85+ years,85+,Female,F,11,Heart Disease
+NA,"Middlesex County, MA",25017,Ischaemic cardiomyopathy,I25.5,2022,2022,85+ years,85+,Male,M,10,Heart Disease
+NA,"Middlesex County, MA",25017,Pulmonary embolism without mention of acute cor pulmonale,I26.9,2021,2021,85+ years,85+,Female,F,10,Heart Disease
+NA,"Middlesex County, MA",25017,Other secondary pulmonary hypertension,I27.2,2021,2021,75-84 years,75-84,Female,F,10,Heart Disease
+NA,"Middlesex County, MA",25017,Other secondary pulmonary hypertension,I27.2,2021,2021,85+ years,85+,Female,F,13,Heart Disease
+NA,"Middlesex County, MA",25017,Other secondary pulmonary hypertension,I27.2,2022,2022,85+ years,85+,Female,F,14,Heart Disease
+NA,"Middlesex County, MA",25017,Other secondary pulmonary hypertension,I27.2,2023,2023,85+ years,85+,Female,F,10,Heart Disease
+NA,"Middlesex County, MA",25017,Mitral (valve) insufficiency,I34.0,2022,2022,85+ years,85+,Female,F,10,Heart Disease
+NA,"Middlesex County, MA",25017,Aortic (valve) stenosis,I35.0,2021,2021,85+ years,85+,Female,F,42,Heart Disease
+NA,"Middlesex County, MA",25017,Aortic (valve) stenosis,I35.0,2021,2021,85+ years,85+,Male,M,17,Heart Disease
+NA,"Middlesex County, MA",25017,Aortic (valve) stenosis,I35.0,2022,2022,85+ years,85+,Female,F,43,Heart Disease
+NA,"Middlesex County, MA",25017,Aortic (valve) stenosis,I35.0,2022,2022,85+ years,85+,Male,M,17,Heart Disease
+NA,"Middlesex County, MA",25017,Aortic (valve) stenosis,I35.0,2023,2023,85+ years,85+,Female,F,33,Heart Disease
+NA,"Middlesex County, MA",25017,Aortic (valve) stenosis,I35.0,2023,2023,85+ years,85+,Male,M,25,Heart Disease
+NA,"Middlesex County, MA",25017,"Cardiomyopathy, unspecified",I42.9,2021,2021,85+ years,85+,Female,F,12,Heart Disease
+NA,"Middlesex County, MA",25017,"Cardiomyopathy, unspecified",I42.9,2022,2022,85+ years,85+,Female,F,11,Heart Disease
+NA,"Middlesex County, MA",25017,"Cardiomyopathy, unspecified",I42.9,2022,2022,85+ years,85+,Male,M,11,Heart Disease
+NA,"Middlesex County, MA",25017,"Cardiomyopathy, unspecified",I42.9,2023,2023,75-84 years,75-84,Male,M,11,Heart Disease
+NA,"Middlesex County, MA",25017,"Cardiomyopathy, unspecified",I42.9,2023,2023,85+ years,85+,Female,F,11,Heart Disease
+NA,"Middlesex County, MA",25017,"Cardiomyopathy, unspecified",I42.9,2023,2023,85+ years,85+,Male,M,13,Heart Disease
+NA,"Middlesex County, MA",25017,"Cardiac arrest, unspecified",I46.9,2021,2021,85+ years,85+,Female,F,10,Heart Disease
+NA,"Middlesex County, MA",25017,"Cardiac arrest, unspecified",I46.9,2022,2022,55-64 years,55-64,Male,M,10,Heart Disease
+NA,"Middlesex County, MA",25017,"Cardiac arrest, unspecified",I46.9,2022,2022,65-74 years,65-74,Male,M,13,Heart Disease
+NA,"Middlesex County, MA",25017,"Cardiac arrest, unspecified",I46.9,2022,2022,75-84 years,75-84,Female,F,16,Heart Disease
+NA,"Middlesex County, MA",25017,"Cardiac arrest, unspecified",I46.9,2022,2022,85+ years,85+,Female,F,16,Heart Disease
+NA,"Middlesex County, MA",25017,"Cardiac arrest, unspecified",I46.9,2022,2022,85+ years,85+,Male,M,10,Heart Disease
+NA,"Middlesex County, MA",25017,"Cardiac arrest, unspecified",I46.9,2023,2023,75-84 years,75-84,Male,M,12,Heart Disease
+NA,"Middlesex County, MA",25017,"Cardiac arrest, unspecified",I46.9,2023,2023,85+ years,85+,Male,M,15,Heart Disease
+NA,"Middlesex County, MA",25017,Atrial fibrillation and flutter,I48,2021,2021,75-84 years,75-84,Female,F,21,Heart Disease
+NA,"Middlesex County, MA",25017,Atrial fibrillation and flutter,I48,2021,2021,75-84 years,75-84,Male,M,16,Heart Disease
+NA,"Middlesex County, MA",25017,Atrial fibrillation and flutter,I48,2021,2021,85+ years,85+,Female,F,57,Heart Disease
+NA,"Middlesex County, MA",25017,Atrial fibrillation and flutter,I48,2021,2021,85+ years,85+,Male,M,39,Heart Disease
+NA,"Middlesex County, MA",25017,Atrial fibrillation and flutter,I48,2022,2022,75-84 years,75-84,Female,F,20,Heart Disease
+NA,"Middlesex County, MA",25017,Atrial fibrillation and flutter,I48,2022,2022,75-84 years,75-84,Male,M,12,Heart Disease
+NA,"Middlesex County, MA",25017,Atrial fibrillation and flutter,I48,2022,2022,85+ years,85+,Female,F,79,Heart Disease
+NA,"Middlesex County, MA",25017,Atrial fibrillation and flutter,I48,2022,2022,85+ years,85+,Male,M,32,Heart Disease
+NA,"Middlesex County, MA",25017,Atrial fibrillation and flutter,I48,2023,2023,65-74 years,65-74,Male,M,14,Heart Disease
+NA,"Middlesex County, MA",25017,Atrial fibrillation and flutter,I48,2023,2023,75-84 years,75-84,Female,F,20,Heart Disease
+NA,"Middlesex County, MA",25017,Atrial fibrillation and flutter,I48,2023,2023,75-84 years,75-84,Male,M,16,Heart Disease
+NA,"Middlesex County, MA",25017,Atrial fibrillation and flutter,I48,2023,2023,85+ years,85+,Female,F,72,Heart Disease
+NA,"Middlesex County, MA",25017,Atrial fibrillation and flutter,I48,2023,2023,85+ years,85+,Male,M,41,Heart Disease
+NA,"Middlesex County, MA",25017,"Cardiac arrhythmia, unspecified",I49.9,2022,2022,85+ years,85+,Male,M,10,Heart Disease
+NA,"Middlesex County, MA",25017,Congestive heart failure,I50.0,2021,2021,65-74 years,65-74,Female,F,13,Heart Disease
+NA,"Middlesex County, MA",25017,Congestive heart failure,I50.0,2021,2021,75-84 years,75-84,Female,F,34,Heart Disease
+NA,"Middlesex County, MA",25017,Congestive heart failure,I50.0,2021,2021,75-84 years,75-84,Male,M,20,Heart Disease
+NA,"Middlesex County, MA",25017,Congestive heart failure,I50.0,2021,2021,85+ years,85+,Female,F,112,Heart Disease
+NA,"Middlesex County, MA",25017,Congestive heart failure,I50.0,2021,2021,85+ years,85+,Male,M,67,Heart Disease
+NA,"Middlesex County, MA",25017,Congestive heart failure,I50.0,2022,2022,65-74 years,65-74,Male,M,13,Heart Disease
+NA,"Middlesex County, MA",25017,Congestive heart failure,I50.0,2022,2022,75-84 years,75-84,Female,F,25,Heart Disease
+NA,"Middlesex County, MA",25017,Congestive heart failure,I50.0,2022,2022,75-84 years,75-84,Male,M,27,Heart Disease
+NA,"Middlesex County, MA",25017,Congestive heart failure,I50.0,2022,2022,85+ years,85+,Female,F,131,Heart Disease
+NA,"Middlesex County, MA",25017,Congestive heart failure,I50.0,2022,2022,85+ years,85+,Male,M,63,Heart Disease
+NA,"Middlesex County, MA",25017,Congestive heart failure,I50.0,2023,2023,65-74 years,65-74,Male,M,17,Heart Disease
+NA,"Middlesex County, MA",25017,Congestive heart failure,I50.0,2023,2023,75-84 years,75-84,Female,F,22,Heart Disease
+NA,"Middlesex County, MA",25017,Congestive heart failure,I50.0,2023,2023,75-84 years,75-84,Male,M,27,Heart Disease
+NA,"Middlesex County, MA",25017,Congestive heart failure,I50.0,2023,2023,85+ years,85+,Female,F,123,Heart Disease
+NA,"Middlesex County, MA",25017,Congestive heart failure,I50.0,2023,2023,85+ years,85+,Male,M,60,Heart Disease
+NA,"Middlesex County, MA",25017,"Heart failure, unspecified",I50.9,2021,2021,75-84 years,75-84,Female,F,18,Heart Disease
+NA,"Middlesex County, MA",25017,"Heart failure, unspecified",I50.9,2021,2021,75-84 years,75-84,Male,M,12,Heart Disease
+NA,"Middlesex County, MA",25017,"Heart failure, unspecified",I50.9,2021,2021,85+ years,85+,Female,F,58,Heart Disease
+NA,"Middlesex County, MA",25017,"Heart failure, unspecified",I50.9,2021,2021,85+ years,85+,Male,M,21,Heart Disease
+NA,"Middlesex County, MA",25017,"Heart failure, unspecified",I50.9,2022,2022,65-74 years,65-74,Male,M,10,Heart Disease
+NA,"Middlesex County, MA",25017,"Heart failure, unspecified",I50.9,2022,2022,75-84 years,75-84,Female,F,11,Heart Disease
+NA,"Middlesex County, MA",25017,"Heart failure, unspecified",I50.9,2022,2022,75-84 years,75-84,Male,M,14,Heart Disease
+NA,"Middlesex County, MA",25017,"Heart failure, unspecified",I50.9,2022,2022,85+ years,85+,Female,F,54,Heart Disease
+NA,"Middlesex County, MA",25017,"Heart failure, unspecified",I50.9,2022,2022,85+ years,85+,Male,M,28,Heart Disease
+NA,"Middlesex County, MA",25017,"Heart failure, unspecified",I50.9,2023,2023,75-84 years,75-84,Female,F,15,Heart Disease
+NA,"Middlesex County, MA",25017,"Heart failure, unspecified",I50.9,2023,2023,75-84 years,75-84,Male,M,23,Heart Disease
+NA,"Middlesex County, MA",25017,"Heart failure, unspecified",I50.9,2023,2023,85+ years,85+,Female,F,46,Heart Disease
+NA,"Middlesex County, MA",25017,"Heart failure, unspecified",I50.9,2023,2023,85+ years,85+,Male,M,21,Heart Disease
+NA,"Middlesex County, MA",25017,"Cardiovascular disease, unspecified",I51.6,2022,2022,85+ years,85+,Female,F,11,Heart Disease
+NA,"Middlesex County, MA",25017,"Heart disease, unspecified",I51.9,2021,2021,85+ years,85+,Female,F,12,Heart Disease
+NA,"Middlesex County, MA",25017,"Heart disease, unspecified",I51.9,2022,2022,85+ years,85+,Female,F,13,Heart Disease
+NA,"Middlesex County, MA",25017,"Intracerebral haemorrhage, unspecified",I61.9,2022,2022,85+ years,85+,Female,F,10,Stroke
+NA,"Middlesex County, MA",25017,"Intracerebral haemorrhage, unspecified",I61.9,2023,2023,75-84 years,75-84,Female,F,10,Stroke
+NA,"Middlesex County, MA",25017,"Intracerebral haemorrhage, unspecified",I61.9,2023,2023,85+ years,85+,Female,F,13,Stroke
+NA,"Middlesex County, MA",25017,"Cerebral infarction, unspecified",I63.9,2022,2022,85+ years,85+,Female,F,23,Stroke
+NA,"Middlesex County, MA",25017,"Cerebral infarction, unspecified",I63.9,2023,2023,75-84 years,75-84,Male,M,11,Stroke
+NA,"Middlesex County, MA",25017,"Cerebral infarction, unspecified",I63.9,2023,2023,85+ years,85+,Female,F,11,Stroke
+NA,"Middlesex County, MA",25017,"Stroke, not specified as haemorrhage or infarction",I64,2021,2021,75-84 years,75-84,Female,F,13,Stroke
+NA,"Middlesex County, MA",25017,"Stroke, not specified as haemorrhage or infarction",I64,2021,2021,75-84 years,75-84,Male,M,16,Stroke
+NA,"Middlesex County, MA",25017,"Stroke, not specified as haemorrhage or infarction",I64,2021,2021,85+ years,85+,Female,F,74,Stroke
+NA,"Middlesex County, MA",25017,"Stroke, not specified as haemorrhage or infarction",I64,2021,2021,85+ years,85+,Male,M,26,Stroke
+NA,"Middlesex County, MA",25017,"Stroke, not specified as haemorrhage or infarction",I64,2022,2022,65-74 years,65-74,Female,F,10,Stroke
+NA,"Middlesex County, MA",25017,"Stroke, not specified as haemorrhage or infarction",I64,2022,2022,75-84 years,75-84,Female,F,17,Stroke
+NA,"Middlesex County, MA",25017,"Stroke, not specified as haemorrhage or infarction",I64,2022,2022,75-84 years,75-84,Male,M,17,Stroke
+NA,"Middlesex County, MA",25017,"Stroke, not specified as haemorrhage or infarction",I64,2022,2022,85+ years,85+,Female,F,72,Stroke
+NA,"Middlesex County, MA",25017,"Stroke, not specified as haemorrhage or infarction",I64,2022,2022,85+ years,85+,Male,M,39,Stroke
+NA,"Middlesex County, MA",25017,"Stroke, not specified as haemorrhage or infarction",I64,2023,2023,65-74 years,65-74,Female,F,14,Stroke
+NA,"Middlesex County, MA",25017,"Stroke, not specified as haemorrhage or infarction",I64,2023,2023,75-84 years,75-84,Female,F,17,Stroke
+NA,"Middlesex County, MA",25017,"Stroke, not specified as haemorrhage or infarction",I64,2023,2023,75-84 years,75-84,Male,M,12,Stroke
+NA,"Middlesex County, MA",25017,"Stroke, not specified as haemorrhage or infarction",I64,2023,2023,85+ years,85+,Female,F,62,Stroke
+NA,"Middlesex County, MA",25017,"Stroke, not specified as haemorrhage or infarction",I64,2023,2023,85+ years,85+,Male,M,31,Stroke
+NA,"Middlesex County, MA",25017,"Sequelae of stroke, not specified as haemorrhage or infarction",I69.4,2021,2021,75-84 years,75-84,Female,F,10,Stroke
+NA,"Middlesex County, MA",25017,"Sequelae of stroke, not specified as haemorrhage or infarction",I69.4,2021,2021,85+ years,85+,Female,F,15,Stroke
+NA,"Middlesex County, MA",25017,"Sequelae of stroke, not specified as haemorrhage or infarction",I69.4,2022,2022,85+ years,85+,Female,F,10,Stroke
+NA,"Middlesex County, MA",25017,"Sequelae of stroke, not specified as haemorrhage or infarction",I69.4,2023,2023,85+ years,85+,Female,F,10,Stroke
+NA,"Middlesex County, MA",25017,"Sequelae of stroke, not specified as haemorrhage or infarction",I69.4,2023,2023,85+ years,85+,Male,M,14,Stroke
+NA,"Middlesex County, MA",25017,Sequelae of other and unspecified cerebrovascular diseases,I69.8,2021,2021,85+ years,85+,Female,F,14,Stroke
+NA,"Middlesex County, MA",25017,Sequelae of other and unspecified cerebrovascular diseases,I69.8,2022,2022,85+ years,85+,Female,F,20,Stroke
+NA,"Middlesex County, MA",25017,Sequelae of other and unspecified cerebrovascular diseases,I69.8,2022,2022,85+ years,85+,Male,M,10,Stroke
+NA,"Norfolk County, MA",25021,"Unspecified diabetes mellitus, with renal complications",E14.2,2023,2023,75-84 years,75-84,Female,F,10,Diabetes
+NA,"Norfolk County, MA",25021,"Unspecified diabetes mellitus, without complications",E14.9,2022,2022,75-84 years,75-84,Male,M,11,Diabetes
+NA,"Norfolk County, MA",25021,"Unspecified diabetes mellitus, without complications",E14.9,2022,2022,85+ years,85+,Female,F,14,Diabetes
+NA,"Norfolk County, MA",25021,"Unspecified diabetes mellitus, without complications",E14.9,2023,2023,65-74 years,65-74,Male,M,13,Diabetes
+NA,"Norfolk County, MA",25021,"Unspecified diabetes mellitus, without complications",E14.9,2023,2023,75-84 years,75-84,Female,F,10,Diabetes
+NA,"Norfolk County, MA",25021,Hypertensive heart disease with (congestive) heart failure,I11.0,2021,2021,85+ years,85+,Female,F,16,Heart Disease
+NA,"Norfolk County, MA",25021,Hypertensive heart disease with (congestive) heart failure,I11.0,2021,2021,85+ years,85+,Male,M,10,Heart Disease
+NA,"Norfolk County, MA",25021,Hypertensive heart disease with (congestive) heart failure,I11.0,2022,2022,85+ years,85+,Female,F,21,Heart Disease
+NA,"Norfolk County, MA",25021,Hypertensive heart disease with (congestive) heart failure,I11.0,2023,2023,85+ years,85+,Female,F,15,Heart Disease
+NA,"Norfolk County, MA",25021,Hypertensive heart disease without (congestive) heart failure,I11.9,2021,2021,85+ years,85+,Female,F,10,Heart Disease
+NA,"Norfolk County, MA",25021,"Acute myocardial infarction, unspecified",I21.9,2021,2021,55-64 years,55-64,Male,M,17,Heart Disease
+NA,"Norfolk County, MA",25021,"Acute myocardial infarction, unspecified",I21.9,2021,2021,65-74 years,65-74,Male,M,22,Heart Disease
+NA,"Norfolk County, MA",25021,"Acute myocardial infarction, unspecified",I21.9,2021,2021,75-84 years,75-84,Female,F,12,Heart Disease
+NA,"Norfolk County, MA",25021,"Acute myocardial infarction, unspecified",I21.9,2021,2021,75-84 years,75-84,Male,M,17,Heart Disease
+NA,"Norfolk County, MA",25021,"Acute myocardial infarction, unspecified",I21.9,2021,2021,85+ years,85+,Female,F,23,Heart Disease
+NA,"Norfolk County, MA",25021,"Acute myocardial infarction, unspecified",I21.9,2021,2021,85+ years,85+,Male,M,20,Heart Disease
+NA,"Norfolk County, MA",25021,"Acute myocardial infarction, unspecified",I21.9,2022,2022,65-74 years,65-74,Female,F,12,Heart Disease
+NA,"Norfolk County, MA",25021,"Acute myocardial infarction, unspecified",I21.9,2022,2022,65-74 years,65-74,Male,M,18,Heart Disease
+NA,"Norfolk County, MA",25021,"Acute myocardial infarction, unspecified",I21.9,2022,2022,75-84 years,75-84,Female,F,11,Heart Disease
+NA,"Norfolk County, MA",25021,"Acute myocardial infarction, unspecified",I21.9,2022,2022,75-84 years,75-84,Male,M,23,Heart Disease
+NA,"Norfolk County, MA",25021,"Acute myocardial infarction, unspecified",I21.9,2022,2022,85+ years,85+,Female,F,23,Heart Disease
+NA,"Norfolk County, MA",25021,"Acute myocardial infarction, unspecified",I21.9,2022,2022,85+ years,85+,Male,M,18,Heart Disease
+NA,"Norfolk County, MA",25021,"Acute myocardial infarction, unspecified",I21.9,2023,2023,55-64 years,55-64,Male,M,13,Heart Disease
+NA,"Norfolk County, MA",25021,"Acute myocardial infarction, unspecified",I21.9,2023,2023,65-74 years,65-74,Male,M,15,Heart Disease
+NA,"Norfolk County, MA",25021,"Acute myocardial infarction, unspecified",I21.9,2023,2023,75-84 years,75-84,Female,F,10,Heart Disease
+NA,"Norfolk County, MA",25021,"Acute myocardial infarction, unspecified",I21.9,2023,2023,75-84 years,75-84,Male,M,14,Heart Disease
+NA,"Norfolk County, MA",25021,"Acute myocardial infarction, unspecified",I21.9,2023,2023,85+ years,85+,Female,F,23,Heart Disease
+NA,"Norfolk County, MA",25021,"Acute myocardial infarction, unspecified",I21.9,2023,2023,85+ years,85+,Male,M,17,Heart Disease
+NA,"Norfolk County, MA",25021,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,55-64 years,55-64,Male,M,14,Heart Disease
+NA,"Norfolk County, MA",25021,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,65-74 years,65-74,Male,M,23,Heart Disease
+NA,"Norfolk County, MA",25021,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,75-84 years,75-84,Male,M,15,Heart Disease
+NA,"Norfolk County, MA",25021,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,85+ years,85+,Female,F,15,Heart Disease
+NA,"Norfolk County, MA",25021,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,55-64 years,55-64,Male,M,19,Heart Disease
+NA,"Norfolk County, MA",25021,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,65-74 years,65-74,Male,M,19,Heart Disease
+NA,"Norfolk County, MA",25021,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,75-84 years,75-84,Female,F,16,Heart Disease
+NA,"Norfolk County, MA",25021,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,75-84 years,75-84,Male,M,15,Heart Disease
+NA,"Norfolk County, MA",25021,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,85+ years,85+,Female,F,13,Heart Disease
+NA,"Norfolk County, MA",25021,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,85+ years,85+,Male,M,10,Heart Disease
+NA,"Norfolk County, MA",25021,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,55-64 years,55-64,Male,M,21,Heart Disease
+NA,"Norfolk County, MA",25021,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,65-74 years,65-74,Female,F,10,Heart Disease
+NA,"Norfolk County, MA",25021,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,65-74 years,65-74,Male,M,39,Heart Disease
+NA,"Norfolk County, MA",25021,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,75-84 years,75-84,Male,M,18,Heart Disease
+NA,"Norfolk County, MA",25021,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,85+ years,85+,Female,F,16,Heart Disease
+NA,"Norfolk County, MA",25021,Atherosclerotic heart disease,I25.1,2021,2021,55-64 years,55-64,Male,M,13,Heart Disease
+NA,"Norfolk County, MA",25021,Atherosclerotic heart disease,I25.1,2021,2021,65-74 years,65-74,Male,M,20,Heart Disease
+NA,"Norfolk County, MA",25021,Atherosclerotic heart disease,I25.1,2021,2021,75-84 years,75-84,Female,F,18,Heart Disease
+NA,"Norfolk County, MA",25021,Atherosclerotic heart disease,I25.1,2021,2021,75-84 years,75-84,Male,M,45,Heart Disease
+NA,"Norfolk County, MA",25021,Atherosclerotic heart disease,I25.1,2021,2021,85+ years,85+,Female,F,79,Heart Disease
+NA,"Norfolk County, MA",25021,Atherosclerotic heart disease,I25.1,2021,2021,85+ years,85+,Male,M,61,Heart Disease
+NA,"Norfolk County, MA",25021,Atherosclerotic heart disease,I25.1,2022,2022,65-74 years,65-74,Male,M,27,Heart Disease
+NA,"Norfolk County, MA",25021,Atherosclerotic heart disease,I25.1,2022,2022,75-84 years,75-84,Female,F,11,Heart Disease
+NA,"Norfolk County, MA",25021,Atherosclerotic heart disease,I25.1,2022,2022,75-84 years,75-84,Male,M,29,Heart Disease
+NA,"Norfolk County, MA",25021,Atherosclerotic heart disease,I25.1,2022,2022,85+ years,85+,Female,F,64,Heart Disease
+NA,"Norfolk County, MA",25021,Atherosclerotic heart disease,I25.1,2022,2022,85+ years,85+,Male,M,63,Heart Disease
+NA,"Norfolk County, MA",25021,Atherosclerotic heart disease,I25.1,2023,2023,65-74 years,65-74,Female,F,10,Heart Disease
+NA,"Norfolk County, MA",25021,Atherosclerotic heart disease,I25.1,2023,2023,65-74 years,65-74,Male,M,26,Heart Disease
+NA,"Norfolk County, MA",25021,Atherosclerotic heart disease,I25.1,2023,2023,75-84 years,75-84,Female,F,23,Heart Disease
+NA,"Norfolk County, MA",25021,Atherosclerotic heart disease,I25.1,2023,2023,75-84 years,75-84,Male,M,26,Heart Disease
+NA,"Norfolk County, MA",25021,Atherosclerotic heart disease,I25.1,2023,2023,85+ years,85+,Female,F,66,Heart Disease
+NA,"Norfolk County, MA",25021,Atherosclerotic heart disease,I25.1,2023,2023,85+ years,85+,Male,M,66,Heart Disease
+NA,"Norfolk County, MA",25021,Aortic (valve) stenosis,I35.0,2021,2021,85+ years,85+,Female,F,22,Heart Disease
+NA,"Norfolk County, MA",25021,Aortic (valve) stenosis,I35.0,2021,2021,85+ years,85+,Male,M,10,Heart Disease
+NA,"Norfolk County, MA",25021,Aortic (valve) stenosis,I35.0,2022,2022,85+ years,85+,Female,F,10,Heart Disease
+NA,"Norfolk County, MA",25021,Aortic (valve) stenosis,I35.0,2022,2022,85+ years,85+,Male,M,12,Heart Disease
+NA,"Norfolk County, MA",25021,Aortic (valve) stenosis,I35.0,2023,2023,85+ years,85+,Female,F,23,Heart Disease
+NA,"Norfolk County, MA",25021,"Cardiac arrest, unspecified",I46.9,2022,2022,65-74 years,65-74,Male,M,13,Heart Disease
+NA,"Norfolk County, MA",25021,"Cardiac arrest, unspecified",I46.9,2023,2023,85+ years,85+,Female,F,15,Heart Disease
+NA,"Norfolk County, MA",25021,Atrial fibrillation and flutter,I48,2021,2021,85+ years,85+,Female,F,27,Heart Disease
+NA,"Norfolk County, MA",25021,Atrial fibrillation and flutter,I48,2021,2021,85+ years,85+,Male,M,17,Heart Disease
+NA,"Norfolk County, MA",25021,Atrial fibrillation and flutter,I48,2022,2022,75-84 years,75-84,Male,M,11,Heart Disease
+NA,"Norfolk County, MA",25021,Atrial fibrillation and flutter,I48,2022,2022,85+ years,85+,Female,F,40,Heart Disease
+NA,"Norfolk County, MA",25021,Atrial fibrillation and flutter,I48,2022,2022,85+ years,85+,Male,M,15,Heart Disease
+NA,"Norfolk County, MA",25021,Atrial fibrillation and flutter,I48,2023,2023,85+ years,85+,Female,F,35,Heart Disease
+NA,"Norfolk County, MA",25021,Atrial fibrillation and flutter,I48,2023,2023,85+ years,85+,Male,M,21,Heart Disease
+NA,"Norfolk County, MA",25021,Congestive heart failure,I50.0,2021,2021,75-84 years,75-84,Female,F,16,Heart Disease
+NA,"Norfolk County, MA",25021,Congestive heart failure,I50.0,2021,2021,75-84 years,75-84,Male,M,13,Heart Disease
+NA,"Norfolk County, MA",25021,Congestive heart failure,I50.0,2021,2021,85+ years,85+,Female,F,53,Heart Disease
+NA,"Norfolk County, MA",25021,Congestive heart failure,I50.0,2021,2021,85+ years,85+,Male,M,45,Heart Disease
+NA,"Norfolk County, MA",25021,Congestive heart failure,I50.0,2022,2022,75-84 years,75-84,Female,F,11,Heart Disease
+NA,"Norfolk County, MA",25021,Congestive heart failure,I50.0,2022,2022,75-84 years,75-84,Male,M,13,Heart Disease
+NA,"Norfolk County, MA",25021,Congestive heart failure,I50.0,2022,2022,85+ years,85+,Female,F,67,Heart Disease
+NA,"Norfolk County, MA",25021,Congestive heart failure,I50.0,2022,2022,85+ years,85+,Male,M,42,Heart Disease
+NA,"Norfolk County, MA",25021,Congestive heart failure,I50.0,2023,2023,75-84 years,75-84,Female,F,11,Heart Disease
+NA,"Norfolk County, MA",25021,Congestive heart failure,I50.0,2023,2023,75-84 years,75-84,Male,M,11,Heart Disease
+NA,"Norfolk County, MA",25021,Congestive heart failure,I50.0,2023,2023,85+ years,85+,Female,F,58,Heart Disease
+NA,"Norfolk County, MA",25021,Congestive heart failure,I50.0,2023,2023,85+ years,85+,Male,M,33,Heart Disease
+NA,"Norfolk County, MA",25021,"Heart failure, unspecified",I50.9,2021,2021,85+ years,85+,Female,F,20,Heart Disease
+NA,"Norfolk County, MA",25021,"Heart failure, unspecified",I50.9,2022,2022,75-84 years,75-84,Male,M,11,Heart Disease
+NA,"Norfolk County, MA",25021,"Heart failure, unspecified",I50.9,2022,2022,85+ years,85+,Female,F,27,Heart Disease
+NA,"Norfolk County, MA",25021,"Heart failure, unspecified",I50.9,2022,2022,85+ years,85+,Male,M,15,Heart Disease
+NA,"Norfolk County, MA",25021,"Heart failure, unspecified",I50.9,2023,2023,75-84 years,75-84,Female,F,12,Heart Disease
+NA,"Norfolk County, MA",25021,"Heart failure, unspecified",I50.9,2023,2023,75-84 years,75-84,Male,M,16,Heart Disease
+NA,"Norfolk County, MA",25021,"Heart failure, unspecified",I50.9,2023,2023,85+ years,85+,Female,F,34,Heart Disease
+NA,"Norfolk County, MA",25021,"Heart failure, unspecified",I50.9,2023,2023,85+ years,85+,Male,M,21,Heart Disease
+NA,"Norfolk County, MA",25021,"Stroke, not specified as haemorrhage or infarction",I64,2021,2021,75-84 years,75-84,Female,F,12,Stroke
+NA,"Norfolk County, MA",25021,"Stroke, not specified as haemorrhage or infarction",I64,2021,2021,85+ years,85+,Female,F,42,Stroke
+NA,"Norfolk County, MA",25021,"Stroke, not specified as haemorrhage or infarction",I64,2021,2021,85+ years,85+,Male,M,20,Stroke
+NA,"Norfolk County, MA",25021,"Stroke, not specified as haemorrhage or infarction",I64,2022,2022,75-84 years,75-84,Female,F,14,Stroke
+NA,"Norfolk County, MA",25021,"Stroke, not specified as haemorrhage or infarction",I64,2022,2022,75-84 years,75-84,Male,M,11,Stroke
+NA,"Norfolk County, MA",25021,"Stroke, not specified as haemorrhage or infarction",I64,2022,2022,85+ years,85+,Female,F,41,Stroke
+NA,"Norfolk County, MA",25021,"Stroke, not specified as haemorrhage or infarction",I64,2022,2022,85+ years,85+,Male,M,18,Stroke
+NA,"Norfolk County, MA",25021,"Stroke, not specified as haemorrhage or infarction",I64,2023,2023,75-84 years,75-84,Female,F,12,Stroke
+NA,"Norfolk County, MA",25021,"Stroke, not specified as haemorrhage or infarction",I64,2023,2023,75-84 years,75-84,Male,M,13,Stroke
+NA,"Norfolk County, MA",25021,"Stroke, not specified as haemorrhage or infarction",I64,2023,2023,85+ years,85+,Female,F,35,Stroke
+NA,"Norfolk County, MA",25021,"Cerebrovascular disease, unspecified",I67.9,2023,2023,85+ years,85+,Female,F,10,Stroke
+NA,"Norfolk County, MA",25021,"Sequelae of stroke, not specified as haemorrhage or infarction",I69.4,2021,2021,85+ years,85+,Female,F,11,Stroke
+NA,"Norfolk County, MA",25021,Sequelae of other and unspecified cerebrovascular diseases,I69.8,2022,2022,85+ years,85+,Female,F,18,Stroke
+NA,"Norfolk County, MA",25021,Sequelae of other and unspecified cerebrovascular diseases,I69.8,2023,2023,85+ years,85+,Female,F,14,Stroke
+NA,"Norfolk County, MA",25021,Sequelae of other and unspecified cerebrovascular diseases,I69.8,2023,2023,85+ years,85+,Male,M,11,Stroke
+NA,"Plymouth County, MA",25023,Hypertensive heart disease with (congestive) heart failure,I11.0,2022,2022,85+ years,85+,Female,F,10,Heart Disease
+NA,"Plymouth County, MA",25023,Hypertensive heart disease with (congestive) heart failure,I11.0,2023,2023,85+ years,85+,Female,F,11,Heart Disease
+NA,"Plymouth County, MA",25023,"Acute myocardial infarction, unspecified",I21.9,2021,2021,55-64 years,55-64,Male,M,13,Heart Disease
+NA,"Plymouth County, MA",25023,"Acute myocardial infarction, unspecified",I21.9,2021,2021,65-74 years,65-74,Female,F,10,Heart Disease
+NA,"Plymouth County, MA",25023,"Acute myocardial infarction, unspecified",I21.9,2021,2021,65-74 years,65-74,Male,M,23,Heart Disease
+NA,"Plymouth County, MA",25023,"Acute myocardial infarction, unspecified",I21.9,2021,2021,75-84 years,75-84,Female,F,10,Heart Disease
+NA,"Plymouth County, MA",25023,"Acute myocardial infarction, unspecified",I21.9,2021,2021,75-84 years,75-84,Male,M,21,Heart Disease
+NA,"Plymouth County, MA",25023,"Acute myocardial infarction, unspecified",I21.9,2021,2021,85+ years,85+,Female,F,20,Heart Disease
+NA,"Plymouth County, MA",25023,"Acute myocardial infarction, unspecified",I21.9,2021,2021,85+ years,85+,Male,M,14,Heart Disease
+NA,"Plymouth County, MA",25023,"Acute myocardial infarction, unspecified",I21.9,2022,2022,55-64 years,55-64,Male,M,16,Heart Disease
+NA,"Plymouth County, MA",25023,"Acute myocardial infarction, unspecified",I21.9,2022,2022,65-74 years,65-74,Female,F,11,Heart Disease
+NA,"Plymouth County, MA",25023,"Acute myocardial infarction, unspecified",I21.9,2022,2022,65-74 years,65-74,Male,M,18,Heart Disease
+NA,"Plymouth County, MA",25023,"Acute myocardial infarction, unspecified",I21.9,2022,2022,75-84 years,75-84,Female,F,12,Heart Disease
+NA,"Plymouth County, MA",25023,"Acute myocardial infarction, unspecified",I21.9,2022,2022,75-84 years,75-84,Male,M,24,Heart Disease
+NA,"Plymouth County, MA",25023,"Acute myocardial infarction, unspecified",I21.9,2022,2022,85+ years,85+,Female,F,14,Heart Disease
+NA,"Plymouth County, MA",25023,"Acute myocardial infarction, unspecified",I21.9,2023,2023,55-64 years,55-64,Male,M,14,Heart Disease
+NA,"Plymouth County, MA",25023,"Acute myocardial infarction, unspecified",I21.9,2023,2023,65-74 years,65-74,Female,F,15,Heart Disease
+NA,"Plymouth County, MA",25023,"Acute myocardial infarction, unspecified",I21.9,2023,2023,65-74 years,65-74,Male,M,17,Heart Disease
+NA,"Plymouth County, MA",25023,"Acute myocardial infarction, unspecified",I21.9,2023,2023,75-84 years,75-84,Female,F,23,Heart Disease
+NA,"Plymouth County, MA",25023,"Acute myocardial infarction, unspecified",I21.9,2023,2023,75-84 years,75-84,Male,M,14,Heart Disease
+NA,"Plymouth County, MA",25023,"Acute myocardial infarction, unspecified",I21.9,2023,2023,85+ years,85+,Female,F,13,Heart Disease
+NA,"Plymouth County, MA",25023,"Acute myocardial infarction, unspecified",I21.9,2023,2023,85+ years,85+,Male,M,16,Heart Disease
+NA,"Plymouth County, MA",25023,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,55-64 years,55-64,Female,F,11,Heart Disease
+NA,"Plymouth County, MA",25023,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,55-64 years,55-64,Male,M,20,Heart Disease
+NA,"Plymouth County, MA",25023,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,65-74 years,65-74,Male,M,12,Heart Disease
+NA,"Plymouth County, MA",25023,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,75-84 years,75-84,Female,F,10,Heart Disease
+NA,"Plymouth County, MA",25023,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,75-84 years,75-84,Male,M,17,Heart Disease
+NA,"Plymouth County, MA",25023,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,45-54 years,45-54,Male,M,11,Heart Disease
+NA,"Plymouth County, MA",25023,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,55-64 years,55-64,Male,M,18,Heart Disease
+NA,"Plymouth County, MA",25023,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,65-74 years,65-74,Male,M,10,Heart Disease
+NA,"Plymouth County, MA",25023,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,75-84 years,75-84,Female,F,11,Heart Disease
+NA,"Plymouth County, MA",25023,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,75-84 years,75-84,Male,M,11,Heart Disease
+NA,"Plymouth County, MA",25023,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,85+ years,85+,Female,F,11,Heart Disease
+NA,"Plymouth County, MA",25023,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,85+ years,85+,Male,M,10,Heart Disease
+NA,"Plymouth County, MA",25023,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,55-64 years,55-64,Male,M,20,Heart Disease
+NA,"Plymouth County, MA",25023,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,65-74 years,65-74,Male,M,26,Heart Disease
+NA,"Plymouth County, MA",25023,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,75-84 years,75-84,Female,F,11,Heart Disease
+NA,"Plymouth County, MA",25023,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,75-84 years,75-84,Male,M,19,Heart Disease
+NA,"Plymouth County, MA",25023,Atherosclerotic heart disease,I25.1,2021,2021,65-74 years,65-74,Female,F,11,Heart Disease
+NA,"Plymouth County, MA",25023,Atherosclerotic heart disease,I25.1,2021,2021,65-74 years,65-74,Male,M,30,Heart Disease
+NA,"Plymouth County, MA",25023,Atherosclerotic heart disease,I25.1,2021,2021,75-84 years,75-84,Female,F,24,Heart Disease
+NA,"Plymouth County, MA",25023,Atherosclerotic heart disease,I25.1,2021,2021,75-84 years,75-84,Male,M,40,Heart Disease
+NA,"Plymouth County, MA",25023,Atherosclerotic heart disease,I25.1,2021,2021,85+ years,85+,Female,F,57,Heart Disease
+NA,"Plymouth County, MA",25023,Atherosclerotic heart disease,I25.1,2021,2021,85+ years,85+,Male,M,48,Heart Disease
+NA,"Plymouth County, MA",25023,Atherosclerotic heart disease,I25.1,2022,2022,55-64 years,55-64,Male,M,10,Heart Disease
+NA,"Plymouth County, MA",25023,Atherosclerotic heart disease,I25.1,2022,2022,65-74 years,65-74,Female,F,10,Heart Disease
+NA,"Plymouth County, MA",25023,Atherosclerotic heart disease,I25.1,2022,2022,65-74 years,65-74,Male,M,27,Heart Disease
+NA,"Plymouth County, MA",25023,Atherosclerotic heart disease,I25.1,2022,2022,75-84 years,75-84,Female,F,16,Heart Disease
+NA,"Plymouth County, MA",25023,Atherosclerotic heart disease,I25.1,2022,2022,75-84 years,75-84,Male,M,47,Heart Disease
+NA,"Plymouth County, MA",25023,Atherosclerotic heart disease,I25.1,2022,2022,85+ years,85+,Female,F,44,Heart Disease
+NA,"Plymouth County, MA",25023,Atherosclerotic heart disease,I25.1,2022,2022,85+ years,85+,Male,M,48,Heart Disease
+NA,"Plymouth County, MA",25023,Atherosclerotic heart disease,I25.1,2023,2023,65-74 years,65-74,Male,M,29,Heart Disease
+NA,"Plymouth County, MA",25023,Atherosclerotic heart disease,I25.1,2023,2023,75-84 years,75-84,Female,F,23,Heart Disease
+NA,"Plymouth County, MA",25023,Atherosclerotic heart disease,I25.1,2023,2023,75-84 years,75-84,Male,M,62,Heart Disease
+NA,"Plymouth County, MA",25023,Atherosclerotic heart disease,I25.1,2023,2023,85+ years,85+,Female,F,55,Heart Disease
+NA,"Plymouth County, MA",25023,Atherosclerotic heart disease,I25.1,2023,2023,85+ years,85+,Male,M,45,Heart Disease
+NA,"Plymouth County, MA",25023,Aortic (valve) stenosis,I35.0,2021,2021,75-84 years,75-84,Female,F,10,Heart Disease
+NA,"Plymouth County, MA",25023,Aortic (valve) stenosis,I35.0,2021,2021,85+ years,85+,Female,F,22,Heart Disease
+NA,"Plymouth County, MA",25023,Aortic (valve) stenosis,I35.0,2022,2022,85+ years,85+,Female,F,11,Heart Disease
+NA,"Plymouth County, MA",25023,Aortic (valve) stenosis,I35.0,2023,2023,85+ years,85+,Female,F,12,Heart Disease
+NA,"Plymouth County, MA",25023,Aortic (valve) stenosis,I35.0,2023,2023,85+ years,85+,Male,M,14,Heart Disease
+NA,"Plymouth County, MA",25023,"Cardiac arrest, unspecified",I46.9,2022,2022,85+ years,85+,Female,F,13,Heart Disease
+NA,"Plymouth County, MA",25023,"Cardiac arrest, unspecified",I46.9,2023,2023,65-74 years,65-74,Male,M,10,Heart Disease
+NA,"Plymouth County, MA",25023,Atrial fibrillation and flutter,I48,2021,2021,85+ years,85+,Female,F,23,Heart Disease
+NA,"Plymouth County, MA",25023,Atrial fibrillation and flutter,I48,2021,2021,85+ years,85+,Male,M,10,Heart Disease
+NA,"Plymouth County, MA",25023,Atrial fibrillation and flutter,I48,2022,2022,85+ years,85+,Female,F,29,Heart Disease
+NA,"Plymouth County, MA",25023,Atrial fibrillation and flutter,I48,2022,2022,85+ years,85+,Male,M,15,Heart Disease
+NA,"Plymouth County, MA",25023,Atrial fibrillation and flutter,I48,2023,2023,85+ years,85+,Female,F,29,Heart Disease
+NA,"Plymouth County, MA",25023,Congestive heart failure,I50.0,2021,2021,75-84 years,75-84,Female,F,19,Heart Disease
+NA,"Plymouth County, MA",25023,Congestive heart failure,I50.0,2021,2021,75-84 years,75-84,Male,M,13,Heart Disease
+NA,"Plymouth County, MA",25023,Congestive heart failure,I50.0,2021,2021,85+ years,85+,Female,F,45,Heart Disease
+NA,"Plymouth County, MA",25023,Congestive heart failure,I50.0,2021,2021,85+ years,85+,Male,M,32,Heart Disease
+NA,"Plymouth County, MA",25023,Congestive heart failure,I50.0,2022,2022,75-84 years,75-84,Female,F,20,Heart Disease
+NA,"Plymouth County, MA",25023,Congestive heart failure,I50.0,2022,2022,75-84 years,75-84,Male,M,19,Heart Disease
+NA,"Plymouth County, MA",25023,Congestive heart failure,I50.0,2022,2022,85+ years,85+,Female,F,58,Heart Disease
+NA,"Plymouth County, MA",25023,Congestive heart failure,I50.0,2022,2022,85+ years,85+,Male,M,22,Heart Disease
+NA,"Plymouth County, MA",25023,Congestive heart failure,I50.0,2023,2023,75-84 years,75-84,Female,F,16,Heart Disease
+NA,"Plymouth County, MA",25023,Congestive heart failure,I50.0,2023,2023,75-84 years,75-84,Male,M,18,Heart Disease
+NA,"Plymouth County, MA",25023,Congestive heart failure,I50.0,2023,2023,85+ years,85+,Female,F,43,Heart Disease
+NA,"Plymouth County, MA",25023,Congestive heart failure,I50.0,2023,2023,85+ years,85+,Male,M,25,Heart Disease
+NA,"Plymouth County, MA",25023,"Heart failure, unspecified",I50.9,2021,2021,85+ years,85+,Male,M,12,Heart Disease
+NA,"Plymouth County, MA",25023,"Heart failure, unspecified",I50.9,2022,2022,85+ years,85+,Female,F,17,Heart Disease
+NA,"Plymouth County, MA",25023,"Heart failure, unspecified",I50.9,2023,2023,75-84 years,75-84,Male,M,13,Heart Disease
+NA,"Plymouth County, MA",25023,"Heart failure, unspecified",I50.9,2023,2023,85+ years,85+,Female,F,19,Heart Disease
+NA,"Plymouth County, MA",25023,"Stroke, not specified as haemorrhage or infarction",I64,2021,2021,75-84 years,75-84,Female,F,16,Stroke
+NA,"Plymouth County, MA",25023,"Stroke, not specified as haemorrhage or infarction",I64,2021,2021,85+ years,85+,Female,F,30,Stroke
+NA,"Plymouth County, MA",25023,"Stroke, not specified as haemorrhage or infarction",I64,2021,2021,85+ years,85+,Male,M,18,Stroke
+NA,"Plymouth County, MA",25023,"Stroke, not specified as haemorrhage or infarction",I64,2022,2022,75-84 years,75-84,Female,F,10,Stroke
+NA,"Plymouth County, MA",25023,"Stroke, not specified as haemorrhage or infarction",I64,2022,2022,75-84 years,75-84,Male,M,15,Stroke
+NA,"Plymouth County, MA",25023,"Stroke, not specified as haemorrhage or infarction",I64,2022,2022,85+ years,85+,Female,F,24,Stroke
+NA,"Plymouth County, MA",25023,"Stroke, not specified as haemorrhage or infarction",I64,2023,2023,75-84 years,75-84,Female,F,14,Stroke
+NA,"Plymouth County, MA",25023,"Stroke, not specified as haemorrhage or infarction",I64,2023,2023,75-84 years,75-84,Male,M,18,Stroke
+NA,"Plymouth County, MA",25023,"Stroke, not specified as haemorrhage or infarction",I64,2023,2023,85+ years,85+,Female,F,21,Stroke
+NA,"Suffolk County, MA",25025,"Unspecified diabetes mellitus, without complications",E14.9,2021,2021,55-64 years,55-64,Male,M,10,Diabetes
+NA,"Suffolk County, MA",25025,"Unspecified diabetes mellitus, without complications",E14.9,2021,2021,75-84 years,75-84,Male,M,11,Diabetes
+NA,"Suffolk County, MA",25025,"Unspecified diabetes mellitus, without complications",E14.9,2022,2022,85+ years,85+,Female,F,10,Diabetes
+NA,"Suffolk County, MA",25025,Hypertensive heart disease with (congestive) heart failure,I11.0,2021,2021,85+ years,85+,Female,F,13,Heart Disease
+NA,"Suffolk County, MA",25025,"Acute myocardial infarction, unspecified",I21.9,2021,2021,55-64 years,55-64,Female,F,11,Heart Disease
+NA,"Suffolk County, MA",25025,"Acute myocardial infarction, unspecified",I21.9,2021,2021,65-74 years,65-74,Male,M,13,Heart Disease
+NA,"Suffolk County, MA",25025,"Acute myocardial infarction, unspecified",I21.9,2021,2021,75-84 years,75-84,Female,F,11,Heart Disease
+NA,"Suffolk County, MA",25025,"Acute myocardial infarction, unspecified",I21.9,2021,2021,75-84 years,75-84,Male,M,15,Heart Disease
+NA,"Suffolk County, MA",25025,"Acute myocardial infarction, unspecified",I21.9,2021,2021,85+ years,85+,Female,F,19,Heart Disease
+NA,"Suffolk County, MA",25025,"Acute myocardial infarction, unspecified",I21.9,2021,2021,85+ years,85+,Male,M,13,Heart Disease
+NA,"Suffolk County, MA",25025,"Acute myocardial infarction, unspecified",I21.9,2022,2022,55-64 years,55-64,Male,M,12,Heart Disease
+NA,"Suffolk County, MA",25025,"Acute myocardial infarction, unspecified",I21.9,2022,2022,65-74 years,65-74,Male,M,11,Heart Disease
+NA,"Suffolk County, MA",25025,"Acute myocardial infarction, unspecified",I21.9,2022,2022,75-84 years,75-84,Female,F,12,Heart Disease
+NA,"Suffolk County, MA",25025,"Acute myocardial infarction, unspecified",I21.9,2022,2022,75-84 years,75-84,Male,M,14,Heart Disease
+NA,"Suffolk County, MA",25025,"Acute myocardial infarction, unspecified",I21.9,2022,2022,85+ years,85+,Female,F,11,Heart Disease
+NA,"Suffolk County, MA",25025,"Acute myocardial infarction, unspecified",I21.9,2023,2023,65-74 years,65-74,Male,M,11,Heart Disease
+NA,"Suffolk County, MA",25025,"Acute myocardial infarction, unspecified",I21.9,2023,2023,75-84 years,75-84,Male,M,14,Heart Disease
+NA,"Suffolk County, MA",25025,"Acute myocardial infarction, unspecified",I21.9,2023,2023,85+ years,85+,Female,F,19,Heart Disease
+NA,"Suffolk County, MA",25025,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,55-64 years,55-64,Male,M,28,Heart Disease
+NA,"Suffolk County, MA",25025,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,65-74 years,65-74,Male,M,23,Heart Disease
+NA,"Suffolk County, MA",25025,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,75-84 years,75-84,Male,M,13,Heart Disease
+NA,"Suffolk County, MA",25025,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,45-54 years,45-54,Male,M,14,Heart Disease
+NA,"Suffolk County, MA",25025,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,55-64 years,55-64,Male,M,16,Heart Disease
+NA,"Suffolk County, MA",25025,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,65-74 years,65-74,Female,F,13,Heart Disease
+NA,"Suffolk County, MA",25025,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,65-74 years,65-74,Male,M,22,Heart Disease
+NA,"Suffolk County, MA",25025,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,75-84 years,75-84,Female,F,10,Heart Disease
+NA,"Suffolk County, MA",25025,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,75-84 years,75-84,Male,M,14,Heart Disease
+NA,"Suffolk County, MA",25025,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,55-64 years,55-64,Male,M,23,Heart Disease
+NA,"Suffolk County, MA",25025,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,65-74 years,65-74,Male,M,24,Heart Disease
+NA,"Suffolk County, MA",25025,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,75-84 years,75-84,Female,F,11,Heart Disease
+NA,"Suffolk County, MA",25025,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,75-84 years,75-84,Male,M,10,Heart Disease
+NA,"Suffolk County, MA",25025,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,85+ years,85+,Female,F,11,Heart Disease
+NA,"Suffolk County, MA",25025,Atherosclerotic heart disease,I25.1,2021,2021,55-64 years,55-64,Male,M,10,Heart Disease
+NA,"Suffolk County, MA",25025,Atherosclerotic heart disease,I25.1,2021,2021,65-74 years,65-74,Female,F,15,Heart Disease
+NA,"Suffolk County, MA",25025,Atherosclerotic heart disease,I25.1,2021,2021,65-74 years,65-74,Male,M,19,Heart Disease
+NA,"Suffolk County, MA",25025,Atherosclerotic heart disease,I25.1,2021,2021,75-84 years,75-84,Female,F,20,Heart Disease
+NA,"Suffolk County, MA",25025,Atherosclerotic heart disease,I25.1,2021,2021,75-84 years,75-84,Male,M,25,Heart Disease
+NA,"Suffolk County, MA",25025,Atherosclerotic heart disease,I25.1,2021,2021,85+ years,85+,Female,F,48,Heart Disease
+NA,"Suffolk County, MA",25025,Atherosclerotic heart disease,I25.1,2021,2021,85+ years,85+,Male,M,30,Heart Disease
+NA,"Suffolk County, MA",25025,Atherosclerotic heart disease,I25.1,2022,2022,65-74 years,65-74,Female,F,11,Heart Disease
+NA,"Suffolk County, MA",25025,Atherosclerotic heart disease,I25.1,2022,2022,65-74 years,65-74,Male,M,21,Heart Disease
+NA,"Suffolk County, MA",25025,Atherosclerotic heart disease,I25.1,2022,2022,75-84 years,75-84,Female,F,17,Heart Disease
+NA,"Suffolk County, MA",25025,Atherosclerotic heart disease,I25.1,2022,2022,75-84 years,75-84,Male,M,37,Heart Disease
+NA,"Suffolk County, MA",25025,Atherosclerotic heart disease,I25.1,2022,2022,85+ years,85+,Female,F,25,Heart Disease
+NA,"Suffolk County, MA",25025,Atherosclerotic heart disease,I25.1,2022,2022,85+ years,85+,Male,M,32,Heart Disease
+NA,"Suffolk County, MA",25025,Atherosclerotic heart disease,I25.1,2023,2023,55-64 years,55-64,Male,M,10,Heart Disease
+NA,"Suffolk County, MA",25025,Atherosclerotic heart disease,I25.1,2023,2023,65-74 years,65-74,Male,M,15,Heart Disease
+NA,"Suffolk County, MA",25025,Atherosclerotic heart disease,I25.1,2023,2023,75-84 years,75-84,Female,F,22,Heart Disease
+NA,"Suffolk County, MA",25025,Atherosclerotic heart disease,I25.1,2023,2023,75-84 years,75-84,Male,M,22,Heart Disease
+NA,"Suffolk County, MA",25025,Atherosclerotic heart disease,I25.1,2023,2023,85+ years,85+,Female,F,20,Heart Disease
+NA,"Suffolk County, MA",25025,Atherosclerotic heart disease,I25.1,2023,2023,85+ years,85+,Male,M,29,Heart Disease
+NA,"Suffolk County, MA",25025,Aortic (valve) stenosis,I35.0,2021,2021,85+ years,85+,Female,F,13,Heart Disease
+NA,"Suffolk County, MA",25025,Aortic (valve) stenosis,I35.0,2022,2022,85+ years,85+,Female,F,10,Heart Disease
+NA,"Suffolk County, MA",25025,Aortic (valve) stenosis,I35.0,2023,2023,85+ years,85+,Male,M,10,Heart Disease
+NA,"Suffolk County, MA",25025,Atrial fibrillation and flutter,I48,2021,2021,85+ years,85+,Female,F,18,Heart Disease
+NA,"Suffolk County, MA",25025,Atrial fibrillation and flutter,I48,2022,2022,85+ years,85+,Female,F,14,Heart Disease
+NA,"Suffolk County, MA",25025,Atrial fibrillation and flutter,I48,2023,2023,85+ years,85+,Female,F,15,Heart Disease
+NA,"Suffolk County, MA",25025,Congestive heart failure,I50.0,2021,2021,75-84 years,75-84,Male,M,10,Heart Disease
+NA,"Suffolk County, MA",25025,Congestive heart failure,I50.0,2021,2021,85+ years,85+,Female,F,34,Heart Disease
+NA,"Suffolk County, MA",25025,Congestive heart failure,I50.0,2021,2021,85+ years,85+,Male,M,16,Heart Disease
+NA,"Suffolk County, MA",25025,Congestive heart failure,I50.0,2022,2022,75-84 years,75-84,Female,F,14,Heart Disease
+NA,"Suffolk County, MA",25025,Congestive heart failure,I50.0,2022,2022,75-84 years,75-84,Male,M,11,Heart Disease
+NA,"Suffolk County, MA",25025,Congestive heart failure,I50.0,2022,2022,85+ years,85+,Female,F,32,Heart Disease
+NA,"Suffolk County, MA",25025,Congestive heart failure,I50.0,2022,2022,85+ years,85+,Male,M,20,Heart Disease
+NA,"Suffolk County, MA",25025,Congestive heart failure,I50.0,2023,2023,75-84 years,75-84,Female,F,13,Heart Disease
+NA,"Suffolk County, MA",25025,Congestive heart failure,I50.0,2023,2023,85+ years,85+,Female,F,30,Heart Disease
+NA,"Suffolk County, MA",25025,Congestive heart failure,I50.0,2023,2023,85+ years,85+,Male,M,13,Heart Disease
+NA,"Suffolk County, MA",25025,"Heart failure, unspecified",I50.9,2021,2021,75-84 years,75-84,Female,F,10,Heart Disease
+NA,"Suffolk County, MA",25025,"Heart failure, unspecified",I50.9,2021,2021,75-84 years,75-84,Male,M,10,Heart Disease
+NA,"Suffolk County, MA",25025,"Heart failure, unspecified",I50.9,2021,2021,85+ years,85+,Female,F,20,Heart Disease
+NA,"Suffolk County, MA",25025,"Heart failure, unspecified",I50.9,2022,2022,85+ years,85+,Female,F,25,Heart Disease
+NA,"Suffolk County, MA",25025,"Heart failure, unspecified",I50.9,2023,2023,85+ years,85+,Female,F,19,Heart Disease
+NA,"Suffolk County, MA",25025,"Heart failure, unspecified",I50.9,2023,2023,85+ years,85+,Male,M,18,Heart Disease
+NA,"Suffolk County, MA",25025,"Stroke, not specified as haemorrhage or infarction",I64,2021,2021,65-74 years,65-74,Male,M,10,Stroke
+NA,"Suffolk County, MA",25025,"Stroke, not specified as haemorrhage or infarction",I64,2021,2021,75-84 years,75-84,Female,F,15,Stroke
+NA,"Suffolk County, MA",25025,"Stroke, not specified as haemorrhage or infarction",I64,2021,2021,75-84 years,75-84,Male,M,11,Stroke
+NA,"Suffolk County, MA",25025,"Stroke, not specified as haemorrhage or infarction",I64,2021,2021,85+ years,85+,Female,F,29,Stroke
+NA,"Suffolk County, MA",25025,"Stroke, not specified as haemorrhage or infarction",I64,2021,2021,85+ years,85+,Male,M,12,Stroke
+NA,"Suffolk County, MA",25025,"Stroke, not specified as haemorrhage or infarction",I64,2022,2022,75-84 years,75-84,Female,F,13,Stroke
+NA,"Suffolk County, MA",25025,"Stroke, not specified as haemorrhage or infarction",I64,2022,2022,85+ years,85+,Female,F,22,Stroke
+NA,"Suffolk County, MA",25025,"Stroke, not specified as haemorrhage or infarction",I64,2022,2022,85+ years,85+,Male,M,11,Stroke
+NA,"Suffolk County, MA",25025,"Stroke, not specified as haemorrhage or infarction",I64,2023,2023,65-74 years,65-74,Male,M,10,Stroke
+NA,"Suffolk County, MA",25025,"Stroke, not specified as haemorrhage or infarction",I64,2023,2023,85+ years,85+,Female,F,17,Stroke
+NA,"Suffolk County, MA",25025,Sequelae of other and unspecified cerebrovascular diseases,I69.8,2021,2021,85+ years,85+,Female,F,15,Stroke
+NA,"Suffolk County, MA",25025,Sequelae of other and unspecified cerebrovascular diseases,I69.8,2022,2022,85+ years,85+,Female,F,12,Stroke
+NA,"Worcester County, MA",25027,"Non-insulin-dependent diabetes mellitus, without complications",E11.9,2022,2022,65-74 years,65-74,Male,M,11,Diabetes
+NA,"Worcester County, MA",25027,"Unspecified diabetes mellitus, without complications",E14.9,2021,2021,65-74 years,65-74,Male,M,20,Diabetes
+NA,"Worcester County, MA",25027,"Unspecified diabetes mellitus, without complications",E14.9,2021,2021,75-84 years,75-84,Male,M,12,Diabetes
+NA,"Worcester County, MA",25027,"Unspecified diabetes mellitus, without complications",E14.9,2022,2022,65-74 years,65-74,Male,M,16,Diabetes
+NA,"Worcester County, MA",25027,"Unspecified diabetes mellitus, without complications",E14.9,2022,2022,75-84 years,75-84,Male,M,13,Diabetes
+NA,"Worcester County, MA",25027,"Unspecified diabetes mellitus, without complications",E14.9,2022,2022,85+ years,85+,Female,F,10,Diabetes
+NA,"Worcester County, MA",25027,Hypertensive heart disease with (congestive) heart failure,I11.0,2021,2021,85+ years,85+,Female,F,16,Heart Disease
+NA,"Worcester County, MA",25027,Hypertensive heart disease with (congestive) heart failure,I11.0,2022,2022,85+ years,85+,Female,F,16,Heart Disease
+NA,"Worcester County, MA",25027,Hypertensive heart disease with (congestive) heart failure,I11.0,2023,2023,85+ years,85+,Female,F,20,Heart Disease
+NA,"Worcester County, MA",25027,Hypertensive heart disease without (congestive) heart failure,I11.9,2022,2022,55-64 years,55-64,Male,M,10,Heart Disease
+NA,"Worcester County, MA",25027,Hypertensive heart disease without (congestive) heart failure,I11.9,2022,2022,65-74 years,65-74,Male,M,10,Heart Disease
+NA,"Worcester County, MA",25027,"Acute myocardial infarction, unspecified",I21.9,2021,2021,55-64 years,55-64,Male,M,19,Heart Disease
+NA,"Worcester County, MA",25027,"Acute myocardial infarction, unspecified",I21.9,2021,2021,65-74 years,65-74,Female,F,10,Heart Disease
+NA,"Worcester County, MA",25027,"Acute myocardial infarction, unspecified",I21.9,2021,2021,65-74 years,65-74,Male,M,28,Heart Disease
+NA,"Worcester County, MA",25027,"Acute myocardial infarction, unspecified",I21.9,2021,2021,75-84 years,75-84,Female,F,22,Heart Disease
+NA,"Worcester County, MA",25027,"Acute myocardial infarction, unspecified",I21.9,2021,2021,75-84 years,75-84,Male,M,20,Heart Disease
+NA,"Worcester County, MA",25027,"Acute myocardial infarction, unspecified",I21.9,2021,2021,85+ years,85+,Female,F,28,Heart Disease
+NA,"Worcester County, MA",25027,"Acute myocardial infarction, unspecified",I21.9,2021,2021,85+ years,85+,Male,M,20,Heart Disease
+NA,"Worcester County, MA",25027,"Acute myocardial infarction, unspecified",I21.9,2022,2022,55-64 years,55-64,Male,M,24,Heart Disease
+NA,"Worcester County, MA",25027,"Acute myocardial infarction, unspecified",I21.9,2022,2022,65-74 years,65-74,Male,M,22,Heart Disease
+NA,"Worcester County, MA",25027,"Acute myocardial infarction, unspecified",I21.9,2022,2022,75-84 years,75-84,Male,M,32,Heart Disease
+NA,"Worcester County, MA",25027,"Acute myocardial infarction, unspecified",I21.9,2022,2022,85+ years,85+,Female,F,28,Heart Disease
+NA,"Worcester County, MA",25027,"Acute myocardial infarction, unspecified",I21.9,2022,2022,85+ years,85+,Male,M,17,Heart Disease
+NA,"Worcester County, MA",25027,"Acute myocardial infarction, unspecified",I21.9,2023,2023,55-64 years,55-64,Male,M,10,Heart Disease
+NA,"Worcester County, MA",25027,"Acute myocardial infarction, unspecified",I21.9,2023,2023,65-74 years,65-74,Female,F,14,Heart Disease
+NA,"Worcester County, MA",25027,"Acute myocardial infarction, unspecified",I21.9,2023,2023,65-74 years,65-74,Male,M,22,Heart Disease
+NA,"Worcester County, MA",25027,"Acute myocardial infarction, unspecified",I21.9,2023,2023,75-84 years,75-84,Female,F,22,Heart Disease
+NA,"Worcester County, MA",25027,"Acute myocardial infarction, unspecified",I21.9,2023,2023,75-84 years,75-84,Male,M,29,Heart Disease
+NA,"Worcester County, MA",25027,"Acute myocardial infarction, unspecified",I21.9,2023,2023,85+ years,85+,Female,F,20,Heart Disease
+NA,"Worcester County, MA",25027,"Acute myocardial infarction, unspecified",I21.9,2023,2023,85+ years,85+,Male,M,17,Heart Disease
+NA,"Worcester County, MA",25027,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,55-64 years,55-64,Male,M,19,Heart Disease
+NA,"Worcester County, MA",25027,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,65-74 years,65-74,Male,M,24,Heart Disease
+NA,"Worcester County, MA",25027,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,75-84 years,75-84,Male,M,17,Heart Disease
+NA,"Worcester County, MA",25027,"Atherosclerotic cardiovascular disease, so described",I25.0,2021,2021,85+ years,85+,Male,M,10,Heart Disease
+NA,"Worcester County, MA",25027,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,45-54 years,45-54,Male,M,11,Heart Disease
+NA,"Worcester County, MA",25027,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,55-64 years,55-64,Male,M,18,Heart Disease
+NA,"Worcester County, MA",25027,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,65-74 years,65-74,Female,F,14,Heart Disease
+NA,"Worcester County, MA",25027,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,65-74 years,65-74,Male,M,18,Heart Disease
+NA,"Worcester County, MA",25027,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,75-84 years,75-84,Male,M,11,Heart Disease
+NA,"Worcester County, MA",25027,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,85+ years,85+,Female,F,16,Heart Disease
+NA,"Worcester County, MA",25027,"Atherosclerotic cardiovascular disease, so described",I25.0,2022,2022,85+ years,85+,Male,M,14,Heart Disease
+NA,"Worcester County, MA",25027,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,45-54 years,45-54,Male,M,10,Heart Disease
+NA,"Worcester County, MA",25027,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,55-64 years,55-64,Male,M,22,Heart Disease
+NA,"Worcester County, MA",25027,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,65-74 years,65-74,Male,M,30,Heart Disease
+NA,"Worcester County, MA",25027,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,75-84 years,75-84,Male,M,12,Heart Disease
+NA,"Worcester County, MA",25027,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,85+ years,85+,Female,F,15,Heart Disease
+NA,"Worcester County, MA",25027,"Atherosclerotic cardiovascular disease, so described",I25.0,2023,2023,85+ years,85+,Male,M,13,Heart Disease
+NA,"Worcester County, MA",25027,Atherosclerotic heart disease,I25.1,2021,2021,55-64 years,55-64,Male,M,14,Heart Disease
+NA,"Worcester County, MA",25027,Atherosclerotic heart disease,I25.1,2021,2021,65-74 years,65-74,Female,F,14,Heart Disease
+NA,"Worcester County, MA",25027,Atherosclerotic heart disease,I25.1,2021,2021,65-74 years,65-74,Male,M,31,Heart Disease
+NA,"Worcester County, MA",25027,Atherosclerotic heart disease,I25.1,2021,2021,75-84 years,75-84,Female,F,23,Heart Disease
+NA,"Worcester County, MA",25027,Atherosclerotic heart disease,I25.1,2021,2021,75-84 years,75-84,Male,M,57,Heart Disease
+NA,"Worcester County, MA",25027,Atherosclerotic heart disease,I25.1,2021,2021,85+ years,85+,Female,F,76,Heart Disease
+NA,"Worcester County, MA",25027,Atherosclerotic heart disease,I25.1,2021,2021,85+ years,85+,Male,M,82,Heart Disease
+NA,"Worcester County, MA",25027,Atherosclerotic heart disease,I25.1,2022,2022,55-64 years,55-64,Male,M,18,Heart Disease
+NA,"Worcester County, MA",25027,Atherosclerotic heart disease,I25.1,2022,2022,65-74 years,65-74,Female,F,17,Heart Disease
+NA,"Worcester County, MA",25027,Atherosclerotic heart disease,I25.1,2022,2022,65-74 years,65-74,Male,M,41,Heart Disease
+NA,"Worcester County, MA",25027,Atherosclerotic heart disease,I25.1,2022,2022,75-84 years,75-84,Female,F,37,Heart Disease
+NA,"Worcester County, MA",25027,Atherosclerotic heart disease,I25.1,2022,2022,75-84 years,75-84,Male,M,55,Heart Disease
+NA,"Worcester County, MA",25027,Atherosclerotic heart disease,I25.1,2022,2022,85+ years,85+,Female,F,81,Heart Disease
+NA,"Worcester County, MA",25027,Atherosclerotic heart disease,I25.1,2022,2022,85+ years,85+,Male,M,91,Heart Disease
+NA,"Worcester County, MA",25027,Atherosclerotic heart disease,I25.1,2023,2023,55-64 years,55-64,Male,M,19,Heart Disease
+NA,"Worcester County, MA",25027,Atherosclerotic heart disease,I25.1,2023,2023,65-74 years,65-74,Female,F,12,Heart Disease
+NA,"Worcester County, MA",25027,Atherosclerotic heart disease,I25.1,2023,2023,65-74 years,65-74,Male,M,31,Heart Disease
+NA,"Worcester County, MA",25027,Atherosclerotic heart disease,I25.1,2023,2023,75-84 years,75-84,Female,F,27,Heart Disease
+NA,"Worcester County, MA",25027,Atherosclerotic heart disease,I25.1,2023,2023,75-84 years,75-84,Male,M,60,Heart Disease
+NA,"Worcester County, MA",25027,Atherosclerotic heart disease,I25.1,2023,2023,85+ years,85+,Female,F,77,Heart Disease
+NA,"Worcester County, MA",25027,Atherosclerotic heart disease,I25.1,2023,2023,85+ years,85+,Male,M,63,Heart Disease
+NA,"Worcester County, MA",25027,Aortic (valve) stenosis,I35.0,2021,2021,85+ years,85+,Female,F,22,Heart Disease
+NA,"Worcester County, MA",25027,Aortic (valve) stenosis,I35.0,2021,2021,85+ years,85+,Male,M,10,Heart Disease
+NA,"Worcester County, MA",25027,Aortic (valve) stenosis,I35.0,2022,2022,85+ years,85+,Female,F,15,Heart Disease
+NA,"Worcester County, MA",25027,Aortic (valve) stenosis,I35.0,2022,2022,85+ years,85+,Male,M,10,Heart Disease
+NA,"Worcester County, MA",25027,Aortic (valve) stenosis,I35.0,2023,2023,85+ years,85+,Female,F,16,Heart Disease
+NA,"Worcester County, MA",25027,Atrial fibrillation and flutter,I48,2021,2021,65-74 years,65-74,Male,M,11,Heart Disease
+NA,"Worcester County, MA",25027,Atrial fibrillation and flutter,I48,2021,2021,85+ years,85+,Female,F,38,Heart Disease
+NA,"Worcester County, MA",25027,Atrial fibrillation and flutter,I48,2021,2021,85+ years,85+,Male,M,27,Heart Disease
+NA,"Worcester County, MA",25027,Atrial fibrillation and flutter,I48,2022,2022,75-84 years,75-84,Female,F,10,Heart Disease
+NA,"Worcester County, MA",25027,Atrial fibrillation and flutter,I48,2022,2022,75-84 years,75-84,Male,M,15,Heart Disease
+NA,"Worcester County, MA",25027,Atrial fibrillation and flutter,I48,2022,2022,85+ years,85+,Female,F,38,Heart Disease
+NA,"Worcester County, MA",25027,Atrial fibrillation and flutter,I48,2022,2022,85+ years,85+,Male,M,21,Heart Disease
+NA,"Worcester County, MA",25027,Atrial fibrillation and flutter,I48,2023,2023,65-74 years,65-74,Female,F,10,Heart Disease
+NA,"Worcester County, MA",25027,Atrial fibrillation and flutter,I48,2023,2023,75-84 years,75-84,Female,F,10,Heart Disease
+NA,"Worcester County, MA",25027,Atrial fibrillation and flutter,I48,2023,2023,75-84 years,75-84,Male,M,16,Heart Disease
+NA,"Worcester County, MA",25027,Atrial fibrillation and flutter,I48,2023,2023,85+ years,85+,Female,F,42,Heart Disease
+NA,"Worcester County, MA",25027,Atrial fibrillation and flutter,I48,2023,2023,85+ years,85+,Male,M,18,Heart Disease
+NA,"Worcester County, MA",25027,"Cardiac arrhythmia, unspecified",I49.9,2022,2022,55-64 years,55-64,Male,M,15,Heart Disease
+NA,"Worcester County, MA",25027,"Cardiac arrhythmia, unspecified",I49.9,2023,2023,65-74 years,65-74,Male,M,10,Heart Disease
+NA,"Worcester County, MA",25027,"Cardiac arrhythmia, unspecified",I49.9,2023,2023,75-84 years,75-84,Male,M,10,Heart Disease
+NA,"Worcester County, MA",25027,Congestive heart failure,I50.0,2021,2021,75-84 years,75-84,Female,F,14,Heart Disease
+NA,"Worcester County, MA",25027,Congestive heart failure,I50.0,2021,2021,75-84 years,75-84,Male,M,15,Heart Disease
+NA,"Worcester County, MA",25027,Congestive heart failure,I50.0,2021,2021,85+ years,85+,Female,F,64,Heart Disease
+NA,"Worcester County, MA",25027,Congestive heart failure,I50.0,2021,2021,85+ years,85+,Male,M,44,Heart Disease
+NA,"Worcester County, MA",25027,Congestive heart failure,I50.0,2022,2022,75-84 years,75-84,Female,F,22,Heart Disease
+NA,"Worcester County, MA",25027,Congestive heart failure,I50.0,2022,2022,75-84 years,75-84,Male,M,17,Heart Disease
+NA,"Worcester County, MA",25027,Congestive heart failure,I50.0,2022,2022,85+ years,85+,Female,F,52,Heart Disease
+NA,"Worcester County, MA",25027,Congestive heart failure,I50.0,2022,2022,85+ years,85+,Male,M,29,Heart Disease
+NA,"Worcester County, MA",25027,Congestive heart failure,I50.0,2023,2023,65-74 years,65-74,Male,M,12,Heart Disease
+NA,"Worcester County, MA",25027,Congestive heart failure,I50.0,2023,2023,75-84 years,75-84,Female,F,21,Heart Disease
+NA,"Worcester County, MA",25027,Congestive heart failure,I50.0,2023,2023,75-84 years,75-84,Male,M,20,Heart Disease
+NA,"Worcester County, MA",25027,Congestive heart failure,I50.0,2023,2023,85+ years,85+,Female,F,49,Heart Disease
+NA,"Worcester County, MA",25027,Congestive heart failure,I50.0,2023,2023,85+ years,85+,Male,M,30,Heart Disease
+NA,"Worcester County, MA",25027,"Heart failure, unspecified",I50.9,2021,2021,85+ years,85+,Female,F,22,Heart Disease
+NA,"Worcester County, MA",25027,"Heart failure, unspecified",I50.9,2021,2021,85+ years,85+,Male,M,15,Heart Disease
+NA,"Worcester County, MA",25027,"Heart failure, unspecified",I50.9,2022,2022,75-84 years,75-84,Male,M,14,Heart Disease
+NA,"Worcester County, MA",25027,"Heart failure, unspecified",I50.9,2022,2022,85+ years,85+,Female,F,22,Heart Disease
+NA,"Worcester County, MA",25027,"Heart failure, unspecified",I50.9,2022,2022,85+ years,85+,Male,M,15,Heart Disease
+NA,"Worcester County, MA",25027,"Heart failure, unspecified",I50.9,2023,2023,75-84 years,75-84,Male,M,11,Heart Disease
+NA,"Worcester County, MA",25027,"Heart failure, unspecified",I50.9,2023,2023,85+ years,85+,Female,F,16,Heart Disease
+NA,"Worcester County, MA",25027,"Heart failure, unspecified",I50.9,2023,2023,85+ years,85+,Male,M,15,Heart Disease
+NA,"Worcester County, MA",25027,"Stroke, not specified as haemorrhage or infarction",I64,2021,2021,75-84 years,75-84,Female,F,12,Stroke
+NA,"Worcester County, MA",25027,"Stroke, not specified as haemorrhage or infarction",I64,2021,2021,75-84 years,75-84,Male,M,10,Stroke
+NA,"Worcester County, MA",25027,"Stroke, not specified as haemorrhage or infarction",I64,2021,2021,85+ years,85+,Female,F,32,Stroke
+NA,"Worcester County, MA",25027,"Stroke, not specified as haemorrhage or infarction",I64,2021,2021,85+ years,85+,Male,M,14,Stroke
+NA,"Worcester County, MA",25027,"Stroke, not specified as haemorrhage or infarction",I64,2022,2022,65-74 years,65-74,Male,M,12,Stroke
+NA,"Worcester County, MA",25027,"Stroke, not specified as haemorrhage or infarction",I64,2022,2022,75-84 years,75-84,Female,F,15,Stroke
+NA,"Worcester County, MA",25027,"Stroke, not specified as haemorrhage or infarction",I64,2022,2022,85+ years,85+,Female,F,29,Stroke
+NA,"Worcester County, MA",25027,"Stroke, not specified as haemorrhage or infarction",I64,2022,2022,85+ years,85+,Male,M,13,Stroke
+NA,"Worcester County, MA",25027,"Stroke, not specified as haemorrhage or infarction",I64,2023,2023,75-84 years,75-84,Female,F,16,Stroke
+NA,"Worcester County, MA",25027,"Stroke, not specified as haemorrhage or infarction",I64,2023,2023,75-84 years,75-84,Male,M,12,Stroke
+NA,"Worcester County, MA",25027,"Stroke, not specified as haemorrhage or infarction",I64,2023,2023,85+ years,85+,Female,F,27,Stroke
+NA,"Worcester County, MA",25027,Sequelae of other and unspecified cerebrovascular diseases,I69.8,2021,2021,85+ years,85+,Female,F,10,Stroke
