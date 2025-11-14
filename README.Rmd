@@ -1,11 +1,11 @@
 ---
-title: "Racial/Ethnic Disparities in Chronic Disease Mortality in Massachusetts (2018-2023)"
+title: "Trends in Chronic Disease Mortality in Massachusetts from 2021 to 2023"
 author: "Kate Ross"
 date: "2025-11-14"
 output: 
   html_document:
     toc: true
-    toc_depth: 2
+#    toc_depth: 2
     theme: cerulean
 ---
 
@@ -14,6 +14,7 @@ output:
 library(tidyverse)
 library(readxl)
 library(here)
+library(scales)
 
 # Set default chunk options
 knitr::opts_chunk$set(
@@ -23,19 +24,134 @@ knitr::opts_chunk$set(
 )
 
 # Source project functions
+
+# Load processed data
+clean_data <- read_csv(here("data/processed/clean_data.csv"))
+mort_selected <- read_csv(here("data/processed/mort_selected.csv"))
 ```
 
 ## Project Overview
 
-This project analyzes racial disparities in major chronic disease mortality in Massachusetts from 2018 - 2023.
+This project analyzes trends in mortality from major chronic diseases (heart disease, diabetes, and stroke) in Massachusetts from 2021 to 2023. Analyses explore patterns by year, sex, age, group, and county, highlighting disparities and trends in deaths.
 
-**Research Questions:**
+### Data
 
-1.  How do mortality rates differ by race?
+The cleaned mortality dataset was prepared from CDC WONDER data. key variables include:
 
-2.  How have disparities changed over time?
+-   `cause_category` (Heart Disease, Diabetes, Stroke)
 
-3.  Are there any geographic patterns by county?
+-   `year` (2021 - 2023)
+
+-   `sex` (Male/Female)
+
+-   `age_group`
+
+-   `county`
+
+-   `deaths` (Number of deaths)
+
+## Exploratory Analyses
+
+### Overall Deaths by Cause
+
+``` {r Total Deaths by Cause Category, echo = TRUE, message = FALSE, warning = FALSE}
+
+overall_by_cause <- clean_data %>%
+  filter(cause_category %in% c("Heart Disease", "Diabetes", "Stroke")) %>%
+  group_by(cause_category) %>%
+  summarise(total_deaths = sum(deaths, na.rm = TRUE)) %>%
+  arrange(desc(total_deaths))
+
+overall_by_cause
+
+```
+
+**Interpretation:** Heart disease accounts for the majority of deaths, followed by stroke and diabetes.
+
+### Trends in Deaths Over Years
+``` {r Trend in Deaths Over Years, echo = TRUE, message = FALSE, warning = FALSE}
+
+ggplot(clean_data, aes(x = year, y = deaths, color = cause_category)) +
+  geom_line(stat = "summary", fun = sum) +
+  scale_x_continuous(breaks = c(2021, 2022, 2023)) +
+  scale_y_continuous(labels = comma) +
+  labs(title = "Total Deaths by Cause Over Years",
+       x = "Year", y = "Total Deaths") +
+  theme_minimal()
+
+```
+**Interpretation:** The trend in deaths from 2021 - 2023 shows that the rates of mortality due to heart disease were consistently higher than that of diabetes and stroke deaths. However the other mortality causes were greater than that of Heart Disease co-morbidities 
+
+### Deaths by Sex
+``` {r Deaths by Sex, echo = TRUE, message = FALSE, warning = FALSE}
+
+overall_by_sex <- clean_data %>%
+group_by(sex) %>%
+summarise(total_deaths = sum(deaths, na.rm = TRUE))
+
+overall_by_sex
+
+sex_by_cause <- clean_data %>%
+filter(cause_category %in% c("Heart Disease", "Diabetes", "Stroke")) %>%
+group_by(sex, cause_category) %>%
+summarise(total_deaths = sum(deaths, na.rm = TRUE))
+
+sex_by_cause
+
+```
+**Interpretation:** Females had higher total deaths overall. Heart Disease remained the leading cause in both sexes. Females had a higher leading cause of stroke relative to men. 
+
+
+### Deaths by Sex, Cause, and Year
+
+```{r deaths-sex-cause-year, echo=TRUE, message=FALSE, warning=FALSE}
+library(dplyr)
+library(ggplot2)
+library(scales)
+
+# Summarize deaths by year, sex, and cause
+deaths_by_sex <- clean_data %>%
+  filter(cause_category %in% c("Heart Disease", "Diabetes", "Stroke")) %>%
+  group_by(year, sex, cause_category) %>%
+  summarise(total_deaths = sum(deaths, na.rm = TRUE), .groups = "drop")
+
+# Plot deaths by sex, cause, and year
+ggplot(deaths_by_sex, aes(x = sex, y = total_deaths, fill = cause_category)) +
+  geom_col(position = "dodge") +
+  facet_wrap(~year) +
+  scale_y_continuous(labels = comma) +
+  labs( #title = "Deaths by Sex, Cause, and Year",
+       x = "Sex", y = "Total Deaths") +
+  theme_minimal()
+```
+**Interpretation:** The faceted plot demonstrates how deaths for each cause differ between men and women across years. 
+
+### Deaths by Age Group
+
+```{r deaths-by-age-group, echo=TRUE, message=FALSE, warning=FALSE}
+
+overall_by_age <- clean_data %>%
+group_by(age_group) %>%
+summarise(total_deaths = sum(deaths, na.rm = TRUE))
+
+overall_by_age
+
+```
+**Interpretation:** [Add interpretation on which age groups have the highest mortality for each cause.]
+
+### Deaths by County
+
+```{r deaths-by-county, echo=TRUE, message=FALSE, warning=FALSE}
+
+deaths_by_county <- clean_data %>%
+filter(cause_category %in% c("Heart Disease", "Diabetes", "Stroke")) %>%
+group_by(county, cause_category) %>%
+summarise(total_deaths = sum(deaths, na.rm = TRUE))
+
+deaths_by_county
+
+```
+**Interpretation:** Counties such as Middlesex and Essex show the highest total deaths over the three years, particularly for heart disease. 
 
 ## 1. Load Data
 
