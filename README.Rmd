@@ -17,6 +17,8 @@ library(here)
 library(scales)
 library(dplyr)
 library(ggplot2)
+library(knitr)
+library(tidyr)
 
 # Set default chunk options
 knitr::opts_chunk$set(
@@ -36,27 +38,85 @@ mort_selected <- read_csv(here("data/processed/mort_selected.csv"))
 
 This project analyzes trends in mortality from major chronic diseases (heart disease, diabetes, and stroke) in Massachusetts from 2021 to 2023. Analyses explore patterns by year, sex, age, group, and county, highlighting disparities and trends in deaths.
 
-## Data
+Chronic diseases such as heart disease, diabetes, and stroke are leading causes of mortality in Massachusetts. Understanding patterns across age, sex, and county can help inform public health interventions and resource allocation.
 
-The cleaned mortality data set was exported from CDC WONDER Massachusetts data. Key variables include:
+## Objectives
 
--   `cause_category` (Heart Disease, Diabetes, Stroke)
+This analysis aims to answer the following questions by:
 
--   `year` (2021 - 2023)
+1.  Comparing mortality by cause, sex, age group, and Massachusetts Counties
 
--   `sex` (Male/Female)
+2.  Identifying trends from 2021 - 2023
 
--   `age_group`
+3.  Highlighting high-risk populations
 
--   `county`
+## Data / Methods
 
--   `deaths` (Number of deaths)
+The cleaned mortality data set was exported from the CDC WONDER database. Key variables include:
 
-# Exploratory Analyses
+```{r CodeBook, echo = FALSE, message = FALSE, warning = FALSE}
 
-## Overall Deaths by Cause
+# Create description table
+descriptions <- tribble(
+  ~variable, ~ description, 
+  "Notes", "Placeholder or unused notes column; appears to contain only NA.",
+  "county", "Full county name in Massachusetts where deaths were recorded.",
+  "county_code", "5-digit county FIPS code identifying each Massachusetts county.",
+  "cause", "Specific ICD-10 cause of death text as reported.",
+  "cause_code", "ICD-10 code corresponding to the detailed cause of death.",
+  "year", "Calendar year of death (numeric).",
+  "year_code", "Duplicate numeric year variable (may have originated from WONDER export).",
+  "age_group", "Age group of decedent, formatted as a labeled age range.",
+  "age_code", "Simplified age code used in WONDER export.",
+  "sex", "Sex of deceased.",
+  "sex_code", "One-letter encoded sex variable.",
+  "deaths", "Number of deaths recorded for the given county–cause–age–sex group.",
+  "cause_category", "Collapsed cause groups used for analysis."
+)
 
-```{r Total Deaths by Cause Category, echo = TRUE, message = FALSE, warning = FALSE}
+
+# Pull variable types
+types <- mort_selected %>%
+  summarise(across(everything(), ~ class(.x)[1])) %>%
+  pivot_longer(everything(), names_to = "variable", values_to = "type")
+
+# Pull value summaries (shortened for readability)
+values <- mort_selected %>%
+  summarise(across(everything(), ~ {
+    if (is.character(.x)) {
+      paste(sort(unique(.x)), collapse = ", ")
+    } else if (is.numeric(.x)) {
+      paste0(min(.x, na.rm = TRUE), " - ", max(.x, na.rm = TRUE)) 
+    } else{
+      paste("Other Type")
+    }
+  } )) %>%
+  pivot_longer(everything(), names_to = "variable", values_to = "values")
+
+# Combine all components
+codebook_table <- types %>%
+  left_join(descriptions, by = "variable") %>%
+  left_join(values, by = "variable")
+
+kable(codebook_table,
+      caption = "Codebook for CDC WONDER MA Mortality (2021 - 2023)",
+      col.names = c("Variable", "Type", "Description", "Values"))
+
+```
+
+Document data cleaning steps:
+
+-   **How I grouped ICD codes into `cause_category`:** The original data set that was imported had all causes of death based on ICD-10 codes. There were records of mental and behavioral disorders (F01-F99); nervous system diseases (G00-G98); circulatory system diseases (I00-I99); respiratory system diseases (J00-J98); and endocrine, nutritional, and metabolic diseases (E00-E88) when initially downloaded. However,, to specifically focus on investigating diabetes, heart diseases, and stroke-based causes of mortality, the ICD-10 codes were filtered to look specifically for records of death from these diseases.
+
+-   How I handled missing data or suppressed counts
+
+-   any transformations (e.g., aggregating deaths by county or age groups).
+
+## Data Summary
+
+### Overall Deaths by Cause
+
+```{r Total Deaths by Cause Category, echo = FALSE, message = FALSE, warning = FALSE}
 
 overall_by_cause <- clean_data %>%
   filter(cause_category %in% c("Heart Disease", "Diabetes", "Stroke")) %>%
@@ -73,13 +133,13 @@ knitr::kable(overall_by_cause,
 
 ```
 
-**Interpretation:** Heart disease accounts for the majority of deaths, followed by stroke and diabetes.
+**Interpretation:** Heart disease accounts for the majority of deaths, followed by stroke and diabetes. This indicates that this is a signiciant leading factor of mortality in Massachusetts today.
 
-## Trends in Deaths Over Years
+### Trends in Deaths Over Years
 
-```{r Trend in Deaths Over Years, echo = TRUE, message = FALSE, warning = FALSE}
+```{r Trend in Deaths Over Years, echo = FALSE, message = FALSE, warning = FALSE}
 
-ggplot(clean_data, aes(x = year, y = deaths, color = cause_category)) +
+ggplot(mort_selected, aes(x = year, y = deaths, color = cause_category)) +
   geom_line(stat = "summary", fun = sum) +
   scale_x_continuous(breaks = c(2021, 2022, 2023)) +
   scale_y_continuous(labels = comma) +
@@ -89,11 +149,11 @@ ggplot(clean_data, aes(x = year, y = deaths, color = cause_category)) +
 
 ```
 
-**Interpretation:** The trend in deaths from 2021 - 2023 shows that the rates of mortality due to heart disease were consistently higher than that of diabetes and stroke deaths. However the other mortality causes were greater than that of Heart Disease co-morbidities
+**Interpretation:** The trend in deaths from 2021 to 2023 shows that the rates of mortality due to heart disease were consistently higher than that of diabetes and stroke deaths.
 
-## Deaths by Sex
+### Deaths by Sex
 
-```{r Deaths by Sex, echo = TRUE, message = FALSE, warning = FALSE}
+```{r Deaths by Sex, echo = FALSE, message = FALSE, warning = FALSE}
 
 overall_by_sex <- clean_data %>%
   group_by(sex) %>%
@@ -117,16 +177,17 @@ sex_by_cause_wide <- sex_by_cause %>%
          Stroke = comma(Stroke))
 
 knitr::kable(sex_by_cause_wide,
-             caption = "Total Deaths per Sex by Cause Category")
+             caption = "Total Deaths per Sex by Cause Category", 
+             col.names = c("Sex", "Diabetes", "Heart Disease", "Stroke"))
 
 
 ```
 
-**Interpretation:** Females had higher total deaths overall. Heart Disease remained the leading cause in both sexes. Females had a higher leading cause of stroke relative to men.
+**Interpretation:** Females had higher total deaths overall. Heart Disease remained the leading cause in both sexes. Females had a higher leading cause of stroke relative to men. *(Something potentially worth looking into)*
 
-## Deaths by Sex, Cause, and Year
+### Deaths by Sex, Cause, and Year
 
-```{r deaths-sex-cause-year, echo=TRUE, message=FALSE, warning=FALSE}
+```{r deaths-sex-cause-year, echo=FALSE, message=FALSE, warning=FALSE}
 
 deaths_trend <- mort_selected %>%
   filter(cause_category %in% c("Heart Disease", "Diabetes", "Stroke")) %>%
@@ -174,11 +235,11 @@ ggplot(deaths_trend, aes(x = year, y = total_deaths, color = sex, group = sex)) 
   )
 ```
 
-**Interpretation:** The faceted plot demonstrates how deaths for each cause differ between men and women across years.
+**Interpretation:** The faceted plot demonstrates how deaths for each cause differ between men and women across years. Men seem to be at a higher risk of mortality from heart disease and diabetes relative to women, but less at risk of stroke.
 
 ### Deaths by Age Group
 
-```{r deaths-by-age-group, echo=TRUE, message=FALSE, warning=FALSE}
+```{r deaths-by-age-group, echo=FALSE, message=FALSE, warning=FALSE}
 
 # Make sure age_group is clean
 deaths_by_age <- mort_selected %>%
@@ -217,14 +278,13 @@ ggplot(deaths_by_age, aes(x = age_group, y = total_deaths, fill = cause_category
        x = "Age Group", y = "Total Deaths") +
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
-
 ```
 
 **Interpretation:** This demonstrates that Older aged individuals (75+) have a higher mortality for each cause then younger individuals. Additionally, this indicates that heart disease was affecting those under 55 whereas diabetes and stroke wasn't.
 
 ### Deaths by County
 
-```{r deaths-by-county, echo=TRUE, message=FALSE, warning=FALSE}
+```{r deaths-by-county, echo=FALSE, message=FALSE, warning=FALSE}
 
 deaths_by_county <- mort_selected %>%
   group_by(cause_category, county) %>%
@@ -245,6 +305,75 @@ knitr::kable(
   deaths_by_county_wide,
   caption = "Total Deaths by County and Cause Category (2021-2023)"
 )
+
+county_cause <- mort_selected %>%
+  group_by(county, cause_category) %>%
+  summarise(total_deaths = sum(deaths, na.rm = TRUE), .groups = "drop")
+
+ggplot(county_cause, aes(x = cause_category, y = county, fill = total_deaths)) + 
+  geom_tile(color = "white") + 
+  geom_text(aes(label = comma(total_deaths)), color = "black", size = 2.7) +
+  scale_fill_gradient(low = "lightyellow", high = "red") +
+  labs(
+    title = "Deaths by County and Cause (2021-2023)",
+    x = "Cause Category", y = "County", fill = "Deaths"
+  ) +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 30, hjust = 1))
 ```
 
-**Interpretation:** Middlesex, Essex, Worchester, and Norfolk County have the highest total deaths over the three years, particularly regarding Heart Disease and Stroke. This suggests there may be additional comorbidities and risk factors affecting these populations.
+**Interpretation:** Middlesex, Essex, Worcester, and Norfolk Counties have the highest total deaths over the three years, particularly regarding Heart Disease and Stroke. This suggests there may be additional comorbidities and risk factors affecting these populations.
+
+### Cause by Year
+
+```{r causes_by_year, echo=FALSE, message=FALSE, warning=FALSE}
+
+cause_year <- mort_selected %>%
+  group_by(year, cause_category) %>%
+  summarise(total_deaths = sum(deaths, na.rm = TRUE), .groups = "drop") %>%
+  group_by(year) %>%
+  mutate(percent = total_deaths / sum(total_deaths) * 100)
+
+ggplot(cause_year, aes(x = factor(year), 
+                       y = total_deaths, fill = cause_category)) +
+  geom_col(position = "fill") +
+  geom_text(aes(label = paste0(round(percent, 1), "%")), 
+            position = position_fill(vjust = 0.5), size = 3) +
+  scale_fill_brewer(palette = "Set2") +
+  labs(title = "Percentage of Deaths by Cause Over Years",, 
+       x = "Year", y = "Percent of Total Deaths", fill = "Cause") +
+  scale_y_continuous(labels = scales::percent_format(scale = 1)) +
+  theme_minimal()
+```
+
+## Discussion 
+
+Key Insights and Explanations of Patterns:
+
+-   Heart Disease is a leading cause of death in Massachusetts
+
+-   Middlesex, Essex, Worcester, and Norfolk County have the highest total deaths over the three years. This is interesting because these are surrounding the largest cities in Massachusetts (Boston and Worcester). The Counties immediately surrounding Boston are Suffolk County (where Boston is located), Middlesex, Essex, and Norfolk. This is intriguing because Middlesex County reported a 320.58% higher total death counts of heart disease in 2021-2023.
+
+## Conclusion
+
+Overall, this quick retrospective research of mortality rates provides a high-level overview of selected causes of mortality in Massachusetts. It is recommended to do a further analysis investigating ALL potential causes of death recorded in the CDC WONDER database. When cross-referencing and doing a preliminary search of mortality in Massachusetts from 2017 to 2021 using the Massachusetts Department of Public Health website, it suggests that the top 7 causes of death were cancer, heart disease, COVID-19, injuries, respiratory diseases, stroke, and diabetes. It is recommended to investigate these patterns further with more expansive database abilities. It would also be good to evaluate the impacts of additional variables such as race, ethnicity, socioeconomic status, access to healthcare, education, etc.
+
+It could also be interesting to run this analysis again and investigate relative to other states nationally, or even just regionally (in New England).
+
+## Limitations
+
+There were some considerable limitations of this retrospective analysis.
+
+-   **Short Time Frame (2021 - 2023):** This research pulled data from the "Underlying Cause of Death, 2018-2023, Single Race Request" from CDC WONDER Mortality database. Filtered specifically for data from Massachusetts, the imported data set only included information for 2021, 2022, and 2023. The short time frame is not enough to draw specific conclusions from.
+
+-   **Missing Variables:** This research originally aimed to evaluate a potential causal relationship of race and how it may impact mortality rates. Due to how the CDC WONDER database is structured, I was only able to pull five specific variables to begin conducting analysis on. As such, this analysis is very much a high-level descriptive epidemiological/demographic type of analysis. It is able to indicate specific patterns based on the population but is unable to draw many conclusions about causal relationships. Next rounds of research, it would be good to investigate the relationship with additional variables such as race, ethnicity, socioeconomic data, etc.
+
+-   **Underreporting / Misclassification:** This is a standard issue when retrospectively analyzing data. There may be additional causes of death worth accounting for. There are also many co-morbidities that impact heart diseases and strokes that may be the underlying issue and cause of death.
+
+-   **Database Download Issue:** When downloading data from the CDC WONDER database, it alerts that counts may be suppressed if n \< 10.
+
+## References
+
+-   CDC WONDER: <https://wonder.cdc.gov/ucd-icd10-expanded.html>
+
+-   ICD-10 Mortality Codes: <https://platform.who.int/mortality/about/list-of-causes-and-corresponding-icd-10-codes>

@@ -176,15 +176,60 @@ animate(animated_plot, nframes = 100, fps = 10, width = 800, height = 600, rende
 # 7. Deaths by Year x Cause x Sex
 # -------------------------------
 deaths_trend <- mort_selected %>%
+  filter(cause_category %in% c("Heart Disease", "Diabetes", "Stroke")) %>%
   group_by(year, cause_category, sex) %>%
-  summarise(total_deaths = sum(deaths, na.rm = TRUE), .groups = "drop")
+  summarise(total_deaths = sum(deaths, na.rm = TRUE), .groups = "drop") %>%
 
 library(scales)
 
 ggplot(deaths_trend, aes(x = year, y = total_deaths, color = sex, group = sex)) +
+  
+  # Lines
+  geom_line(size = 1, alpha = 0.9) +
+  
+  # Text labels with sex-specific positions
+  geom_text(
+    aes(
+      label = scales::comma(total_deaths), 
+      vjust = case_when(
+        # --- Heart Disease + Diabetes --- 
+        cause_category %in% c("Heart Disease", "Diabetes") & sex == "Male" ~ -1.2, # above
+        cause_category %in% c("Heart Disease", "Diabetes") & sex == "Female" ~ 1.2, # below
+        
+        # --- Stroke ---
+        cause_category %in% c("Stroke") & sex == "Male" ~ 1.2, # above
+        cause_category %in% c("Stroke") & sex == "Female" ~ -1.2, # above
+        
+        )), # women above, men below - HMMM
+    size = 3
+    ) +
+  
+  facet_wrap(~cause_category, scales = "fixed") +
+  scale_x_continuous(breaks = c(2021, 2022, 2023)) +
+  scale_y_continuous(labels = scales::comma) +
+  
+  labs(
+    title = "Trends in Deaths by Cause and Sex (2021 - 2023)",
+    x = "Year", 
+    y = "Total Deaths", 
+    color = "Sex"
+  ) +
+  
+  theme_minimal(base_size = 12) +
+  theme(
+    strip.text = element_text(size = 12, face = "bold"),
+    legend.position = "top",
+    plot.title = element_text(face = "bold", size = 14)
+  )
+
+ggplot(deaths_trend, aes(x = year, y = total_deaths, color = sex, group = sex)) +
   geom_line(size = 1) +
   geom_point() +
-  facet_wrap(~cause_category, scales = "free_y") +
+  geom_text(aes(label = total_deaths),
+            vjust = -0.5,
+            size = 3,
+            check_overlap = TRUE) +
+  facet_wrap(~cause_category, scales = "fixed") +
   scale_x_continuous(breaks = c(2021, 2022, 2023)) +
   scale_y_continuous(labels = label_comma()) + 
   labs(title = "Trends in Deaths by Cause and Sex (2018-2023)", 

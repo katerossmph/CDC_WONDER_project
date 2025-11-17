@@ -5,6 +5,8 @@
 clean_data <- read_csv(here("data/processed/clean_data.csv"))
 mort_selected <- read_csv(here("data/processed/mort_selected.csv"))
 
+selected_icd_codes <- readRDS("data/processed/selected_icd_codes.rds")
+
 # -------------------------------
 # 1. Quick overview of the data
 # -------------------------------
@@ -47,8 +49,13 @@ print(overall_by_sex)
 
 sex_by_cause <- clean_data %>%
   filter(cause_category %in% c("Heart Disease", "Diabetes", "Stroke")) %>%
-  group_by(sex) %>%
-  summarise(total_deaths = sum(deaths, na.rm = TRUE))
+  group_by(sex, cause_category) %>%
+  summarise(total_deaths = sum(deaths, na.rm = TRUE)) %>%
+  pivot_wider(
+    names_from = cause_category,
+    values_from = total_deaths,
+    values_fill = 0
+  )
 
 print("Total Deaths per Sex of Heart Disease, Diabetes, and Stroke:")
 print(sex_by_cause)
@@ -62,6 +69,17 @@ overall_by_age <- clean_data %>%
 
 print(overall_by_age)
 
+overall_by_age_wide <- mort_selected %>%
+  group_by(age_group, cause_category) %>%
+  summarise(total_deaths = sum(deaths, na.rm = TRUE)) %>%
+  pivot_wider(
+    names_from = cause_category, 
+    values_from = total_deaths,
+    values_fill = 0
+  )
+
+print(overall_by_age_wide)
+
 # -------------------------------
 # 6. Deaths by county
 # -------------------------------
@@ -71,6 +89,18 @@ overall_by_county <- clean_data %>%
   arrange(desc(total_deaths))
 
 print(overall_by_county)
+
+overall_by_county_wide <- mort_selected %>%
+  group_by(county, cause_category) %>%
+  summarise(total_deaths = sum(deaths, na.rm = TRUE)) %>%
+  arrange(desc(total_deaths)) %>%
+  pivot_wider(
+    names_from = cause_category, 
+    values_from = total_deaths,
+    values_fill = 0
+  )
+
+print(overall_by_county_wide)
 
 # -------------------------------
 # 7. Cross-tab summaries
@@ -108,6 +138,7 @@ cause_age_wider_ICD <- cause_age_table_ICD %>%
   )
 
 print(cause_age_table_ICD)
+print(cause_age_wider_ICD)
 
 
 # Cause x County
